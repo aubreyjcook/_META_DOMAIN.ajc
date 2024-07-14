@@ -16,16 +16,6 @@ This repository serves as a centralized location for notes, ideas, concepts, and
 
 This repository is a collection of notes and ideas that aren't directly related to specific code but provide valuable context and insight into my GitHub projects and profile.
 
-## Notes
-
-- [Note 1](notes/note1.md)
-- [Note 2](notes/note2.md)
-
-## Concepts
-
-- [Concept 1](concepts/concept1.md)
-- [Concept 2](concepts/concept2.md)
-
 ## Guidelines
 
 - [Tagging System](guidelines/tagging-system.md)
