@@ -21,7 +21,7 @@ This repository is a collection of notes and ideas that aren't directly related 
 For more detailed information, please refer to the individual markdown files in this repository.
 
 ## Guidelines
-- [Markdown Compatible Syntax Guidelines]guidelines/plain-text-notation.md)
+- [Markdown Compatible Syntax Guidelines](guidelines/plain-text-notation.md)
 - [Tagging System](guidelines/tagging-notation.md)
 - [File Naming](guidelines/file-naming.md)
 - [Directory Structures](guidelines/directory-structures.md)
