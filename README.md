@@ -9,10 +9,10 @@ This repository serves as a centralized location for notes, ideas, concepts, and
 - [Introduction](#introduction)
 - [Guidelines](#guidelines)
 - [Templates](#templates)
-- [Documentation](#documentation)
-- [Starred Repositories](#starred-repositories)
-- [ChatGPT/LLM Notes](#chatgptllm-notes)
-- [Unsorted Notes](#unsorted-notes)
+- [Project-Documentation](#project-documentation)
+- [External Repositories](#external-repository-review-and-reference)
+- [ChatGPT/CoPilot/LLM Notes](#chatgptllm-notes)
+- [Unsorted/Misc Notes](#unsortedmiscellaneous-notes)
 
 ## Introduction
 
