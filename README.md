@@ -31,21 +31,24 @@ For more detailed information, please refer to the individual markdown files in 
 ## Suggested Directory Structure
 
 _META_Git-RepoDocs.ajc/
-│
 ├── README.md
 ├── LICENSE
-└── documentation/
-    ├── projects/
-    │   ├── project1/
-    │   │   ├── README.md
-            ├── pseuodocode.md
-    │   │   ├── doc1.md
-    │   │   └── doc2.md
-    │   └── project2/
-    │       ├── README.md
-            ├── pseuodocode.md
-    │       ├── doc1.md
-    │       └── doc2.md
-    └── guidelines/
-        ├── tagging-system.md
-        └── project-management.md
+├── documentation/
+│ ├── README.md
+│ ├── pseudocode.md
+│ ├── doc1.md
+│ └── doc2.md
+├── projects/
+│ ├── project1/
+│ │ ├── README.md
+│ │ ├── pseudocode.md
+│ │ ├── doc1.md
+│ │ └── doc2.md
+│ ├── project2/
+│ │ ├── README.md
+│ │ ├── pseudocode.md
+│ │ ├── doc1.md
+│ │ └── doc2.md
+├── guidelines/
+│ └── tagging-system.md
+└── project-management.md
