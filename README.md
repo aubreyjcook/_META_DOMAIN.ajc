@@ -44,7 +44,7 @@ For more detailed information, please refer to the individual markdown files in 
 ## External Repository Review and Reference
 
 - [External Repository Overview](external-repositories/external-repository-overview.md)
-- [Starred Repo Review Template](external-repositories/starred-repos/base-template/starred-repo-review-template.md)
+- [Starred Repo Review Template](external-repositories/starred-repos/starred-repo-review-template.md)
 
 ## ChatGPT/Co-Pilot/LLM Notes
 
