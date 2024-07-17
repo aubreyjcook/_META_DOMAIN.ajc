@@ -29,8 +29,8 @@ This repository is a collection of notes and ideas that aren't directly related 
 For more detailed information, please refer to the individual markdown files in this repository.
 
 ## Suggested Directory Structure
-
-_META_Git-RepoDocs.ajc/
+```
+_META-Git-RepoDocs.ajc/
 ├── README.md
 ├── LICENSE
 ├── documentation/
@@ -44,11 +44,12 @@ _META_Git-RepoDocs.ajc/
 │ │ ├── pseudocode.md
 │ │ ├── doc1.md
 │ │ └── doc2.md
-│ ├── project2/
-│ │ ├── README.md
-│ │ ├── pseudocode.md
-│ │ ├── doc1.md
-│ │ └── doc2.md
+│ └── project2/
+│ ├── README.md
+│ ├── pseudocode.md
+│ ├── doc1.md
+│ └── doc2.md
 ├── guidelines/
 │ └── tagging-system.md
 └── project-management.md
+```
