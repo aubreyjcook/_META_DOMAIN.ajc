@@ -21,16 +21,18 @@ This repository is a collection of notes and ideas that aren't directly related 
 For more detailed information, please refer to the individual markdown files in this repository.
 
 ## Guidelines
-- [Markdown Compatible Syntax Guidelines](guidelines/plain-text-notation.md)
+- [Plain-text Compatible Syntax Guidelines](guidelines/plain-text-notation.md)
 - [Tagging System](guidelines/tagging-notation.md)
 - [File Naming](guidelines/file-naming.md)
 - [Directory Structures](guidelines/directory-structures.md)
-- [Project Management](guidelines/project-management.md)
+- [Project Management](guidelines/project-management/project-management.md)
 - [Git Commit Messages](guidelines/git-commit-messages.md)
+- [Technology-Specific Guidelines](guidelines/tecnology-specific-guidelines/technology-specific-guidelines.md)
 
 ## Templates
 
 - [Templates](templates/README.md)
+- [Project Template](templates/projects/project-001)
 
 ## Project Documentation
 
@@ -38,12 +40,12 @@ For more detailed information, please refer to the individual markdown files in 
 
 ## Starred Repositories
 
-- [Base Assessment Template](base-template/README.md)
+- [Starred Repo Review Template](starred-repos/base-template/starred-repo-review-template.md)
 
 ## ChatGPT/LLM Notes
 
-- [Saved ChatGPT Generation Template](chatgpt/base-template.md)
+- [Saved ChatGPT Generation Template](chatgpt/chatGPT-generated-content-template.md)
 
 ## Unsorted Notes
 
-- [Unsorted Notes](notes/README.md)
+- [Unsorted Notes](notes/basic-note.md)
