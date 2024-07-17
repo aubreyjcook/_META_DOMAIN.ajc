@@ -12,28 +12,38 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
 
 ### Prefixes
 
-- **dev_**: Used for serious development projects that are actively being worked on.
+- **dev_**: Used for serious development projects that are part of a specific initiative to create an application or feature.
   - Example: `dev_ProjectName.ajc`
 
 - **sandbox_**: Used for experimental projects, prototypes, or less organized code.
   - Example: `sandbox_ProjectName.ajc`
 
-- **college_** (or **school_**): Used for academic projects related to coursework or research.
-  - Example: `college_ProjectName.ajc`
+- **edu_** (or **college_** or **school_**): Used for academic projects related to coursework or research.
+  - Example: `edu_ProjectName.ajc`
 
 - **priv_**: Used for personal repositories that contain private or sensitive information.
   - Example: `priv_ProjectName.ajc`
+
+- **_META_**: Used for repositories that contain meta-information about projects or repositories. Typically does not contain code but rather data written in plain-text compatible syntax such as Markdown. Begins with an underscore to indicate its special purpose and priority.
+  - Example: 
+    - `_META_ProjectName.ajc`
+    - `_META_Git-RepoDocs.ajc`
 
 ### Suffixes
 
 - **.ajc**: Indicates personal creation, a unique identifier for repositories created by me.
   - Example: `ProjectName.ajc`
 
+- **.org**: Indicates a repository associated with a non-profit organization or community project.
+  - Example: `ProjectName.org`
+
 ### Combined Tags
 
 - Repositories can use a combination of prefixes and suffixes to provide a detailed context.
   - Example: `dev_WebsiteOptimization.ajc`
   - Example: `sandbox_DatabaseExperiments.ajc`
+  - Example: `edu_DataScienceProject.ajc`
+  - Example: `priv_PersonalDiary.ajc`
 
 ### Additional Tags
 
