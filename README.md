@@ -38,10 +38,12 @@ _META_Git-RepoDocs.ajc/
     ├── projects/
     │   ├── project1/
     │   │   ├── README.md
+            ├── pseuodocode.md
     │   │   ├── doc1.md
     │   │   └── doc2.md
     │   └── project2/
     │       ├── README.md
+            ├── pseuodocode.md
     │       ├── doc1.md
     │       └── doc2.md
     └── guidelines/
