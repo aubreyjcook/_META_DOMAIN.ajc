@@ -11,7 +11,7 @@ This repository serves as a centralized location for notes, ideas, concepts, and
 - [Templates](#templates)
 - [Documentation](#documentation)
 - [Starred Repositories](#starred-repositories)
-- [ChatGPT/LLM Notes](#chatgptllm-notes)
+- [ChatGPT/Co-Pilot/LLM Notes](#chatgptco-pilotllm-notes)
 - [Unsorted Notes](#unsorted-notes)
 
 ## Introduction
@@ -29,7 +29,7 @@ For more detailed information, please refer to the individual markdown files in 
 - [Project Management Overview](guidelines/project-management/project-management-overview.md)
 - [Git Overview](guidelines/git/git-overview.md)
 - [Code Review Guidelines](guidelines/code-review-guidelines.md)
-- [Technology-Specific Guidelines](guidelines/tecnology-specific-guidelines/technology-specific-guidelines.md)
+- [Technology-Specific Guidelines Overview](guidelines/tecnology-specific-guidelines/technology-specific-guidelines-overview.md)
 
 ## Templates
 
@@ -38,19 +38,20 @@ For more detailed information, please refer to the individual markdown files in 
 
 ## Project Documentation
 
-- [Project 000 (Example)](documentation/projects/project-000.md)
+- [Project Documentation Overview](documentation/projects-documentation-overview.md)
+- [Project 000 (Example)](documentation/projects/project-000/)
 
 ## External Repository Review and Reference
 
 - [External Repository Overview](external-repositories/external-repository-overview.md)
-- [Starred Repo Review Template](external-repositories/starred-repos/base-template/starred-repo-review-template.md)
+- [Starred Repo Review Template](external-repositories/starred-repos/starred-repo-review-template.md)
 
 ## ChatGPT/Co-Pilot/LLM Notes
 
-- [ChatGPT Overview](llm/chatgpt/chatgpt-overview.md)
-- [Saved ChatGPT Generation Template](llm/chatgpt/chatGPT-generated-content-template.md)
+- [ChatGPT Overview](llm/chatgpt/chat-gpt-overview.md)
+- [Saved ChatGPT Generation Template](llm/chatgpt/saved-generations/chatGPT-generated-content-template.md)
 
-- [Github CoPilot Overview](llm/copilot/copilot-notes.md)
+- [Github CoPilot Overview](llm/copilot/copilot-overview.md)
 
 ## Unsorted/Miscellaneous Notes
 
