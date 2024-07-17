@@ -16,36 +16,45 @@ This repository serves as a centralized location for notes, ideas, concepts, and
 
 ## Introduction
 
-This repository is a collection of notes and ideas that aren't directly related to specific code but provide valuable context and insight into my GitHub projects and profile.
+This repository is a collection of notes and ideas that aren't explicitly related to specific code repos but provide valuable context and insight into my GitHub projects and profile.
 
 For more detailed information, please refer to the individual markdown files in this repository.
 
 ## Guidelines
+
 - [Plain-text Compatible Syntax Guidelines](guidelines/plain-text-notation.md)
 - [Tagging System](guidelines/tagging-notation.md)
 - [File Naming](guidelines/file-naming.md)
 - [Directory Structures](guidelines/directory-structures.md)
-- [Project Management](guidelines/project-management/project-management.md)
-- [Git Commit Messages](guidelines/git-commit-messages.md)
+- [Project Management](guidelines/project-management/project-management-overview.md)
+- [Git Overview](guidelines/git/git-overview.md)
+- [Git Commit Messages](guidelines/git/git-commit-messages.md)
+- [Git Changes Itemization](guidelines/git/git-changes-itemization.md)
+- [Git Branching Strategy](guidelines/git/git-branching-strategy.md)
+- [Git Pull Request Guidelines](guidelines/git/git-pull-request-guidelines.md)
+- [Git Repository Structure](guidelines/git/git-repository-structure.md)
+- [Code Review Guidelines](guidelines/code-review-guidelines.md)
 - [Technology-Specific Guidelines](guidelines/tecnology-specific-guidelines/technology-specific-guidelines.md)
 
 ## Templates
 
 - [Templates](templates/README.md)
-- [Project Template](templates/projects/project-001)
+- [Project Template](templates/projects/project-000)
 
 ## Project Documentation
 
-- [Project 001 (Example)](documentation/projects/project-001.md)
+- [Project 001 (Example)](documentation/projects/project-000.md)
 
-## Starred Repositories
+## External Repository Review and Reference
 
-- [Starred Repo Review Template](starred-repos/base-template/starred-repo-review-template.md)
+- [Starred Repo Review Template](external-repositories/starred-repos/base-template/starred-repo-review-template.md)
 
-## ChatGPT/LLM Notes
+## ChatGPT/Co-Pilot/LLM Notes
 
-- [Saved ChatGPT Generation Template](chatgpt/chatGPT-generated-content-template.md)
+- [ChatGPT Overview](llm/chatgpt/chatgpt-overview.md)
+- [Saved ChatGPT Generation Template](llm/chatgpt/chatGPT-generated-content-template.md)
+- [Github CoPilot Overview](llm/copilot/copilot-notes.md)
 
-## Unsorted Notes
+## Unsorted/Miscellaneous Notes
 
 - [Unsorted Notes](notes/basic-note.md)
