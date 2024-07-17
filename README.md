@@ -26,6 +26,7 @@ For more detailed information, please refer to the individual markdown files in 
 - [File Naming](guidelines/file-naming.md)
 - [Directory Structures](guidelines/directory-structures.md)
 - [Project Management](guidelines/project-management.md)
+- [Git Commit Messages](guidelines/git-commit-messages.md)
 
 ## Templates
 
