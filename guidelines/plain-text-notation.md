@@ -9,7 +9,7 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 Example:
 
 markdown
-
+```
 # Header 1
 ## Header 2
 ### Header 3
@@ -48,6 +48,7 @@ Header 2
 2. Ordered Item 2
 
 `Link <http://example.com>`_
+```
 
 3. Textile
 
@@ -57,6 +58,7 @@ Example:
 
 textile
 
+```
 h1. Header 1
 
 h2. Header 2
@@ -111,6 +113,7 @@ plaintext
 2. Ordered Item 2
 
 [Link](http://example.com)
+```
 
 Tips for Custom Notation:
 
