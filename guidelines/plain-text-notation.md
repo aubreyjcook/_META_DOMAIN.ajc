@@ -8,8 +8,9 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 
 Example:
 
-markdown
 ```
+markdown
+
 # Header 1
 ## Header 2
 ### Header 3
@@ -22,6 +23,7 @@ markdown
 2. Ordered List Item 2
 
 [Link](http://example.com)
+```
 
 2. RestructuredText (reST)
 
@@ -29,6 +31,7 @@ RestructuredText is another lightweight markup language. It’s used extensively
 
 Example:
 
+```
 rst
 
 Header 1
@@ -56,6 +59,7 @@ Textile is a lightweight markup language originally developed to provide a simpl
 
 Example:
 
+```
 textile
 
 ```
@@ -71,6 +75,7 @@ _Italic Text_
 # List Item 2
 
 "Link":http://example.com
+```
 
 4. Org-mode (Emacs)
 
@@ -78,6 +83,7 @@ Org-mode is a powerful system for organizing notes, planning, and authoring in E
 
 Example:
 
+```
 org
 
 * Header 1
@@ -90,6 +96,7 @@ org
 - List Item 2
 
 [[http://example.com][Link]]
+```
 
 5. Custom Plain Text Notation
 
@@ -97,6 +104,7 @@ You can create your own system by defining rules and structures that suit your n
 
 Example:
 
+```
 plaintext
 
 # Header 1
