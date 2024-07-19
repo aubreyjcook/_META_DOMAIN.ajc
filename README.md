@@ -14,6 +14,7 @@ This repository serves as a centralized location for notes, ideas, concepts, and
   - [Directory Structures](#directory-structures)
   - [Project Management Overview](#project-management-overview)
   - [Git Overview](#git-overview)
+  - [Open Source Licensing](#open-source-licensing)
   - [Code Review Guidelines](#code-review-guidelines)
   - [Technology-Specific Guidelines](#technology-specific-guidelines)
 - [Templates](#templates)
@@ -76,6 +77,12 @@ Strategies and practices for managing projects efficiently.
 Best practices and guidelines for using Git version control.
 
 - [Git Overview](guidelines/git/git-overview.md)
+
+### Open Source Licensing
+
+Information on open-source licensing and its importance.
+
+- [Open Source Licensing](guidelines/open-source-licensing/open-source-licensing-overview.md)
 
 ### Code Review Guidelines
 
