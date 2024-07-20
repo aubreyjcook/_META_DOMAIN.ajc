@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This repository serves as a centralized location for notes, ideas, concepts, and guidelines related to my GitHub profile and repositories. It contains documentation about my tagging system, project management strategies, and other meta-information that help in understanding the context and direction of my projects.
+This repository serves as a centralized location for notes, ideas, concepts, and guidelines related to developer Aubrey J Cook's GitHub profile and repositories. It contains documentation about this developers personal tagging system, project management strategies, and other meta-information that help in understanding the context and direction of this developers projects.
+
+Content is not written as a tutorial or guide for others but rather as a reference for the developer themselves. It is a collection of personal observations and guidelines that help maintain consistency and organization across projects.
 
 ## Table of Contents
 
