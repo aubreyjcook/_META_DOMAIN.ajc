@@ -18,6 +18,12 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
 - **sandbox_**: Used for experimental projects, prototypes, or less organized code.
   - Example: `sandbox_ProjectName.ajc`
 
+- **app_**: Used for repositories that contain a complete application or software product.
+  - Example: `app_ProjectName.ajc`
+
+- **lib_**: Used for libraries, modules, or packages that are intended to be reused in other projects.
+  - Example: `lib_ProjectName.ajc`
+
 - **edu_** (or **college_** or **school_**): Used for academic projects related to coursework or research.
   - Example: `edu_ProjectName.ajc`
 
@@ -28,6 +34,11 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
   - Example: 
     - `_META_ProjectName.ajc`
     - `_META_Git-RepoDocs.ajc`
+
+- **_DOMAIN_**: Used for repositories that contain a comprehensive resevoir of informational content and data that attempts to be a definitive description of known knowledge in a specific domain. Begins with an underscore to indicate its special purpose and priority.
+  - Example: 
+    - `_DOMAIN_ProjectName.ajc`
+    - `_DOMAIN_Web-Optimization.ajc`
 
 ### Suffixes
 
