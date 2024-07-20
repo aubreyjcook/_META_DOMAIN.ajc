@@ -4,9 +4,9 @@ Overview of different operating systems and guidelines for managing them.
 
 ## Table of Contents
 
-- [Windows](operating-systems-windows.md)
+- [Windows](windows/os-windows-overview.md)
+- [Linux](linux/os-linux-overview.md)
 - [macOS](operating-systems-macos.md)
-- [Linux](operating-systems-linux.md)
 - [Unix](operating-systems-unix.md)
 - [Android](operating-systems-android.md)
 - [iOS](operating-systems-ios.md)
