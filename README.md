@@ -41,7 +41,7 @@ This repository is designed with the intention of being able to be forked and pe
 
 ## Introduction
 
-This repository is a collection of notes and ideas that aren't explicitly related to specific code repos but provide valuable context and insight into my GitHub projects and profile.
+This repository is a collection of notes and ideas that aren't explicitly related to specific code repos but provide valuable context and insight into this developers GitHub projects and profile.
 
 For more detailed information, please refer to the individual markdown files in this repository.
 
@@ -55,7 +55,7 @@ Documentation on how to write plain-text compatible syntax for easy transfer of 
 
 ### Tagging System
 
-Details on the tagging system used to organize repositories and indicate the phase or intent of the project.
+Details on the tagging system used to organize repositories and indicate the intention or phase of the project.
 
 - [Tagging System](guidelines/tagging-notation.md)
 
@@ -108,7 +108,7 @@ Guidelines tailored to specific technologies used in various projects.
 - [Technology-Specific Guidelines](guidelines/technology-specific-guidelines/technology-specific-guidelines-overview.md)
 - [Operating Systems](guidelines/technology-specific-guidelines/operating-systems-overview.md)
 - [IDEs and Editors](guidelines/technology-specific-guidelines/ides-overview.md)
-- [Applications (Native/Web)](guidelines/technology-specific-guidelines/applications-overview.md)
+- [Applications](guidelines/technology-specific-guidelines/applications-overview.md)
 
 ## Templates
 
@@ -150,7 +150,7 @@ Guidelines and templates for reviewing and referencing external repositories.
 
 A template for reviewing repositories that have been starred for future reference.
 
-- [Starred Repo Review Template](external-repositories/starred-repos/starred-repo-review-template.md)
+- [Starred/Watched Repo Review Template](external-repositories/starred-repos/starred-repo-review-template.md)
 
 ## ChatGPT/CoPilot/LLM Notes
 
