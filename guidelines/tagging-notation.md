@@ -24,6 +24,9 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
 - **lib_**: Used for libraries, modules, or packages that are intended to be reused in other projects.
   - Example: `lib_ProjectName.ajc`
 
+- **diag_**: Used for diagnostic tools, scripts, or utilities that help analyze or debug other systems.
+  - Example: `diag_ProjectName.ajc`
+
 - **edu_** (or **college_** or **school_**): Used for academic projects related to coursework or research.
   - Example: `edu_ProjectName.ajc`
 
@@ -48,6 +51,13 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
 - **.org**: Indicates a repository associated with a non-profit organization or community project.
   - Example: `ProjectName.org`
 
+- **.techname**: Indicates the use of a specific technology or programming language.
+  - Example: `ProjectName.techname.ajc`
+  - Example: `ProjectName.html`
+  - Example: `ProjectName.js`
+  - Example: `ProjectName.py.ajc`
+  - Example: `ProjectName.wp`
+
 ### Combined Tags
 
 - Repositories can use a combination of prefixes and suffixes to provide a detailed context.
@@ -55,11 +65,8 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
   - Example: `sandbox_DatabaseExperiments.ajc`
   - Example: `edu_DataScienceProject.ajc`
   - Example: `priv_PersonalDiary.ajc`
-
-### Additional Tags
-
-- **html**: Indicates the use of HTML or web technologies.
-  - Example: `priv_ProjectName.html.ajc`
+  - Example: `lib_AlgorithmImplementations.py.ajc`
+  - Example: `app_WebAppProject.js`
 
 ## Examples
 
