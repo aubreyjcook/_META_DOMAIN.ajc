@@ -16,6 +16,7 @@ This repository serves as a centralized location for notes, ideas, concepts, and
   - [Git Overview](#git-overview)
   - [Open Source Licensing](#open-source-licensing)
   - [Code Review Guidelines](#code-review-guidelines)
+  - [Web Security Overview](#web-security-overview)
   - [Technology-Specific Guidelines](#technology-specific-guidelines)
 - [Templates](#templates)
   - [Templates Overview](#templates-overview)
@@ -89,6 +90,12 @@ Information on open-source licensing and its importance.
 Criteria and methods for conducting effective code reviews.
 
 - [Code Review Guidelines](guidelines/code-review-guidelines.md)
+
+### Web Security Overview
+
+An overview of web security practices and considerations.
+
+- [Web Security Overview](guidelines/web-security/web-sec-overview.md)
 
 ### Technology-Specific Guidelines
 
