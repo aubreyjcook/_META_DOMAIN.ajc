@@ -8,7 +8,7 @@ Content is not written as a tutorial or guide for others but rather as a referen
 
 This repository is designed with the intention of being able to be forked and personalized for individual use by other developers, by the same developer in other contexts, or by orgs, to maintain their own set of separate guidelines and notes.
 
-## Table of Contents
+## Table of Contents <!-- TODO: Regenerate Table of Contents -->
 
 - [Introduction](#introduction)
 - [Guidelines](#guidelines)
@@ -38,6 +38,10 @@ This repository is designed with the intention of being able to be forked and pe
   - [Github CoPilot Overview](#github-copilot-overview)
 - [Unsorted/Miscellaneous Notes](#unsortedmiscellaneous-notes)
   - [Unsorted Notes](#unsorted-notes)
+  - [Hacking Overview](#hacking-overview)
+  - [Electronics/Physical Computing Overview](#electronicsphysical-computing-overview)
+  - [Mathematics Overview](#mathematics-overview)
+  - [Personal Observations](#personal-observations)
 
 ## Introduction
 
@@ -145,6 +149,7 @@ A sample template for setting up new projects.
 Information on documenting projects to provide clear and useful insights.
 
 - [Project Documentation Overview](documentation/projects-documentation-overview.md)
+- [Writing Readmes](documentation/writing-readmes.md)
 
 ### Project 000 (Example)
 

@@ -9,6 +9,10 @@ Best practices and guidelines for using Git version control.
 -[Commit Changes](guidelines/git/commit-changes.md)
 -[Commit Messages](guidelines/git/commit-messages.md)
 
+## Git Issues
+
+-[Issues](guidelines/git/issues.md)
+
 ## Git Branching
 
 -[Git Branching](guidelines/git/branching.md)
