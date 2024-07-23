@@ -18,7 +18,7 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
 - **sandbox_**: Used for experimental projects, prototypes, or less organized code.
   - Example: `sandbox_ProjectName.ajc`
 
-- **index_**: Used for repositories that serve as collections of projects that are implementations of a related engineering or scientific concept. These may be the same implementation in different languages or variations of the same concept. For example many solutions exist to resolve implementatoins of algorithms, automated testing, or machine learning, but may be implemented in different languages or with different libraries.
+- **index_**: Used for repositories that serve as collections of projects that are implementations of a related engineering or scientific concept. These may be the same implementation in different languages or variations of the same concept. For example many solutions exist to resolve implementatoins of algorithms, automated testing, or machine learning, but may be implemented in different languages or with different libraries. Sometimes this tag is related to a repo that is purely information or notational and may not contain code.
   - Example: `index_ProjectName.ajc`
 
 - **app_**: Used for repositories that contain a complete application or software product.
