@@ -110,6 +110,20 @@ Guidelines tailored to specific technologies used in various projects.
 - [IDEs and Editors](guidelines/technology-specific-guidelines/ides-overview.md)
 - [Applications](guidelines/technology-specific-guidelines/applications-overview.md)
 
+## Project Preparation
+
+### Project Preparation Overview
+
+General overview of project preparation notes and documentation referring to planned projects under development by this developer.
+
+- [Project Preparation Overview](project-preparation/project-preparation-overview.md)
+
+### Pseudo-Code Templates
+
+Templates for writing pseudo-code for algorithms and processes.
+
+- [Pseudo-Code Templates](project-preparation/pseudo-code/pseudo-code-templates.md)
+
 ## Templates
 
 ### Templates Overview
@@ -185,3 +199,6 @@ An overview of using GitHub CoPilot for code suggestions and improvements.
 A collection of notes that do not fit into the other categories but are still important.
 
 - [Unsorted Notes](notes/notes-overview.md)
+- [Hacking Overview](notes/hacking/hacking-overview.md)
+- [Electronics/Physical Computing Overview](notes/electronics/electronics-overview.md)
+- [Mathematics Overview](notes/mathematics/mathematics-overview.md)
