@@ -13,14 +13,15 @@ This repository is designed with the intention of being able to be forked and pe
 - [Introduction](#introduction)
 - [Guidelines](#guidelines)
   - [Plain-text Compatible Syntax Guidelines](#plain-text-compatible-syntax-guidelines)
-  - [Tagging System](#tagging-system)
-  - [File Naming](#file-naming)
-  - [Directory Structures](#directory-structures)
-  - [Project Management Overview](#project-management-overview)
-  - [Git Overview](#git-overview)
-  - [Open Source Licensing](#open-source-licensing)
-  - [Code Review Guidelines](#code-review-guidelines)
-  - [Web Security Overview](#web-security-overview)
+    - [Universal Coding Practices](#universal-coding-practices)
+      - [Tagging System](#tagging-system)
+      - [File Naming](#file-naming)
+      - [Directory Structures](#directory-structures)
+      - [Project Management Overview](#project-management-overview)
+      - [Git Overview](#git-overview)
+      - [Open Source Licensing](#open-source-licensing)
+      - [Code Review Guidelines](#code-review-guidelines)
+      - [Web Security Overview](#web-security-overview)
   - [Technology-Specific Guidelines](#technology-specific-guidelines)
 - [Templates](#templates)
   - [Templates Overview](#templates-overview)
@@ -61,19 +62,25 @@ Documentation on how to write plain-text compatible syntax for easy transfer of 
 
 Details on the tagging system used to organize repositories and indicate the intention or phase of the project.
 
-- [Tagging System](guidelines/tagging-notation.md)
+- [Tagging System](guidelines/version-control/git/tagging-notation.md)
 
-### File Naming
+### Universal Coding Practices
+
+Best practices and guidelines for coding and project management.
+
+- [Universal Coding Practices](guidelines/universal-coding-practices/universal-coding-practices-overview.md)
+
+#### File Naming
 
 Standards and conventions for naming files across different projects.
 
-- [File Naming](guidelines/file-naming.md)
+- [File Naming](guidelines/universal-coding-practices/file-naming.md)
 
-### Directory Structures
+#### Directory Structures
 
 Guidelines on organizing directories within projects for better manageability and consistency.
 
-- [Directory Structures](guidelines/directory-structures.md)
+- [Directory Structures](guidelines/universal-coding-practices/directory-structures.md)
 
 ### Project Management Overview
 
@@ -85,7 +92,8 @@ Strategies and practices for managing projects efficiently.
 
 Best practices and guidelines for using Git version control.
 
-- [Git Overview](guidelines/git/git-overview.md)
+- [Git Overview](guidelines/version-control/git/git-overview.md)
+- [Git Repo Tagging Notation](guidelines/version-control/git/tagging-notation.md)
 
 ### Open Source Licensing
 
@@ -163,13 +171,13 @@ An example project documentation to serve as a reference.
 
 Guidelines and templates for reviewing and referencing external repositories.
 
-- [External Repository Overview](external-repositories/external-repository-overview.md)
+- [External Repository Overview](guidelines/version-control/git/external-repositories/external-repository-overview.md)
 
 ### Starred Repo Review Template
 
 A template for reviewing repositories that have been starred for future reference.
 
-- [Starred/Watched Repo Review Template](external-repositories/starred-repos/starred-repo-review-template.md)
+- [Starred/Watched Repo Review Template](guidelines/version-control/git/external-repositories/starred-repos/starred-repo-review-template.md)
 
 ## ChatGPT/CoPilot/LLM Notes
 
