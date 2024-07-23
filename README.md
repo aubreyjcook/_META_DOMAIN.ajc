@@ -202,3 +202,4 @@ A collection of notes that do not fit into the other categories but are still im
 - [Hacking Overview](notes/hacking/hacking-overview.md)
 - [Electronics/Physical Computing Overview](notes/electronics/electronics-overview.md)
 - [Mathematics Overview](notes/mathematics/mathematics-overview.md)
+- [Personal Observations](notes/personal-observations/personal-observations-overview.md)
