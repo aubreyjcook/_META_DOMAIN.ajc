@@ -82,38 +82,38 @@ Guidelines on organizing directories within projects for better manageability an
 
 - [Directory Structures](guidelines/universal-coding-practices/directory-structures.md)
 
-### Project Management Overview
+## Project Management Overview
 
 Strategies and practices for managing projects efficiently.
 
 - [Project Management Overview](guidelines/project-management/project-management-overview.md)
 
-### Git Overview
+## Git Overview
 
 Best practices and guidelines for using Git source control.
 
 - [Git Overview](guidelines/source-control/git/git-overview.md)
 - [Git Repo Tagging Notation](guidelines/source-control/git/tagging-notation.md)
 
-### Open Source Licensing
+## Open Source Licensing
 
 Information on open-source licensing and its importance.
 
 - [Open Source Licensing](guidelines/open-source-licensing/open-source-licensing-overview.md)
 
-### Code Review Guidelines
+## Code Review Guidelines
 
 Criteria and methods for conducting effective code reviews.
 
 - [Code Review Guidelines](guidelines/code-review-guidelines.md)
 
-### Web Security Overview
+## Web Security Overview
 
 An overview of web security practices and considerations.
 
 - [Web Security Overview](guidelines/web-security/web-sec-overview.md)
 
-### Technology-Specific Guidelines
+## Technology-Specific Guidelines
 
 Guidelines tailored to specific technologies used in various projects.
 
