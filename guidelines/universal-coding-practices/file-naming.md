@@ -1,6 +1,6 @@
 # File Naming Guidelines
 
-## Purpose
+## Purpose <!-- TODO: Rewrite this. -->
 
 This document provides guidelines for naming files within the meta GitHub notes repository as well as other repositories. Consistent and descriptive file names improve organization and readability, making it easier to locate and understand the contents of each file.
 
