@@ -2,21 +2,26 @@
 
 ## Purpose
 
-This repository serves as a centralized location for notes, ideas, concepts, and guidelines related to my GitHub profile and repositories. It contains documentation about my tagging system, project management strategies, and other meta-information that help in understanding the context and direction of my projects.
+This repository serves as a centralized location for notes, ideas, concepts, and guidelines related to developer Aubrey J Cook's GitHub profile and repositories. It contains documentation about this developers personal tagging system, project management strategies, and other meta-information that help in understanding the context and direction of this developers projects.
 
-## Table of Contents
+Content is not written as a tutorial or guide for others but rather as a reference for the developer themselves. It is a collection of personal observations and guidelines that help maintain consistency and organization across projects.
+
+This repository is designed with the intention of being able to be forked and personalized for individual use by other developers, by the same developer in other contexts, or by orgs, to maintain their own set of separate guidelines and notes.
+
+## Table of Contents <!-- TODO: Regenerate Table of Contents -->
 
 - [Introduction](#introduction)
 - [Guidelines](#guidelines)
   - [Plain-text Compatible Syntax Guidelines](#plain-text-compatible-syntax-guidelines)
-  - [Tagging System](#tagging-system)
-  - [File Naming](#file-naming)
-  - [Directory Structures](#directory-structures)
-  - [Project Management Overview](#project-management-overview)
-  - [Git Overview](#git-overview)
-  - [Open Source Licensing](#open-source-licensing)
-  - [Code Review Guidelines](#code-review-guidelines)
-  - [Web Security Overview](#web-security-overview)
+  - [Universal Coding Practices](#universal-coding-practices)
+    - [Tagging System](#tagging-system)
+    - [File Naming](#file-naming)
+    - [Directory Structures](#directory-structures)
+    - [Project Management Overview](#project-management-overview)
+    - [Git Overview](#git-overview)
+    - [Open Source Licensing](#open-source-licensing)
+    - [Code Review Guidelines](#code-review-guidelines)
+    - [Web Security Overview](#web-security-overview)
   - [Technology-Specific Guidelines](#technology-specific-guidelines)
 - [Templates](#templates)
   - [Templates Overview](#templates-overview)
@@ -34,10 +39,14 @@ This repository serves as a centralized location for notes, ideas, concepts, and
   - [Github CoPilot Overview](#github-copilot-overview)
 - [Unsorted/Miscellaneous Notes](#unsortedmiscellaneous-notes)
   - [Unsorted Notes](#unsorted-notes)
+  - [Hacking Overview](#hacking-overview)
+  - [Electronics/Physical Computing Overview](#electronicsphysical-computing-overview)
+  - [Mathematics Overview](#mathematics-overview)
+  - [Personal Observations](#personal-observations)
 
 ## Introduction
 
-This repository is a collection of notes and ideas that aren't explicitly related to specific code repos but provide valuable context and insight into my GitHub projects and profile.
+This repository is a collection of notes and ideas that aren't explicitly related to specific code repos but provide valuable context and insight into this developers GitHub projects and profile.
 
 For more detailed information, please refer to the individual markdown files in this repository.
 
@@ -51,60 +60,81 @@ Documentation on how to write plain-text compatible syntax for easy transfer of 
 
 ### Tagging System
 
-Details on the tagging system used to organize repositories and indicate the phase or intent of the project.
+Details on the tagging system used to organize repositories and indicate the intention or phase of the project.
 
-- [Tagging System](guidelines/tagging-notation.md)
+- [Tagging System](guidelines/source-control/git/tagging-notation.md)
+
+## Universal Coding Practices
+
+Best practices and guidelines for coding and project management.
+
+- [Universal Coding Practices](guidelines/universal-coding-practices/universal-coding-practices-overview.md)
 
 ### File Naming
 
 Standards and conventions for naming files across different projects.
 
-- [File Naming](guidelines/file-naming.md)
+- [File Naming](guidelines/universal-coding-practices/file-naming.md)
 
 ### Directory Structures
 
 Guidelines on organizing directories within projects for better manageability and consistency.
 
-- [Directory Structures](guidelines/directory-structures.md)
+- [Directory Structures](guidelines/universal-coding-practices/directory-structures.md)
 
-### Project Management Overview
+## Project Management Overview
 
 Strategies and practices for managing projects efficiently.
 
 - [Project Management Overview](guidelines/project-management/project-management-overview.md)
 
-### Git Overview
+## Git Overview
 
-Best practices and guidelines for using Git version control.
+Best practices and guidelines for using Git source control.
 
-- [Git Overview](guidelines/git/git-overview.md)
+- [Git Overview](guidelines/source-control/git/git-overview.md)
+- [Git Repo Tagging Notation](guidelines/source-control/git/tagging-notation.md)
 
-### Open Source Licensing
+## Open Source Licensing
 
 Information on open-source licensing and its importance.
 
 - [Open Source Licensing](guidelines/open-source-licensing/open-source-licensing-overview.md)
 
-### Code Review Guidelines
+## Code Review Guidelines
 
 Criteria and methods for conducting effective code reviews.
 
 - [Code Review Guidelines](guidelines/code-review-guidelines.md)
 
-### Web Security Overview
+## Web Security Overview
 
 An overview of web security practices and considerations.
 
 - [Web Security Overview](guidelines/web-security/web-sec-overview.md)
 
-### Technology-Specific Guidelines
+## Technology-Specific Guidelines
 
 Guidelines tailored to specific technologies used in various projects.
 
 - [Technology-Specific Guidelines](guidelines/technology-specific-guidelines/technology-specific-guidelines-overview.md)
 - [Operating Systems](guidelines/technology-specific-guidelines/operating-systems-overview.md)
 - [IDEs and Editors](guidelines/technology-specific-guidelines/ides-overview.md)
-- [Applications (Native/Web)](guidelines/technology-specific-guidelines/applications-overview.md)
+- [Applications](guidelines/technology-specific-guidelines/applications-overview.md)
+
+## Project Preparation
+
+### Project Preparation Overview
+
+General overview of project preparation notes and documentation referring to planned projects under development by this developer.
+
+- [Project Preparation Overview](project-preparation/project-preparation-overview.md)
+
+### Pseudo-Code Templates
+
+Templates for writing pseudo-code for algorithms and processes.
+
+- [Pseudo-Code Templates](project-preparation/pseudo-code/pseudo-code-templates.md)
 
 ## Templates
 
@@ -127,6 +157,7 @@ A sample template for setting up new projects.
 Information on documenting projects to provide clear and useful insights.
 
 - [Project Documentation Overview](documentation/projects-documentation-overview.md)
+- [Writing Readmes](documentation/writing-readmes.md)
 
 ### Project 000 (Example)
 
@@ -140,13 +171,13 @@ An example project documentation to serve as a reference.
 
 Guidelines and templates for reviewing and referencing external repositories.
 
-- [External Repository Overview](external-repositories/external-repository-overview.md)
+- [External Repository Overview](guidelines/source-control/git/external-repositories/external-repository-overview.md)
 
 ### Starred Repo Review Template
 
 A template for reviewing repositories that have been starred for future reference.
 
-- [Starred Repo Review Template](external-repositories/starred-repos/starred-repo-review-template.md)
+- [Starred/Watched Repo Review Template](guidelines/source-control/git/external-repositories/starred-repos/starred-repo-review-template.md)
 
 ## ChatGPT/CoPilot/LLM Notes
 
@@ -181,3 +212,7 @@ An overview of using GitHub CoPilot for code suggestions and improvements.
 A collection of notes that do not fit into the other categories but are still important.
 
 - [Unsorted Notes](notes/notes-overview.md)
+- [Hacking Overview](notes/hacking/hacking-overview.md)
+- [Electronics/Physical Computing Overview](notes/electronics/electronics-overview.md)
+- [Mathematics Overview](notes/mathematics/mathematics-overview.md)
+- [Personal Observations](notes/personal-observations/personal-observations-overview.md)

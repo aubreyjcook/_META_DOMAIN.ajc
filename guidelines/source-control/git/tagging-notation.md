@@ -18,11 +18,17 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
 - **sandbox_**: Used for experimental projects, prototypes, or less organized code.
   - Example: `sandbox_ProjectName.ajc`
 
+- **index_**: Used for repositories that serve as collections of projects that are implementations of a related engineering or scientific concept. These may be the same implementation in different languages or variations of the same concept. For example many solutions exist to resolve implementatoins of algorithms, automated testing, or machine learning, but may be implemented in different languages or with different libraries. Sometimes this tag is related to a repo that is purely information or notational and may not contain code.
+  - Example: `index_ProjectName.ajc`
+
 - **app_**: Used for repositories that contain a complete application or software product.
   - Example: `app_ProjectName.ajc`
 
 - **lib_**: Used for libraries, modules, or packages that are intended to be reused in other projects.
   - Example: `lib_ProjectName.ajc`
+
+- **diag_**: Used for diagnostic tools, scripts, or utilities that help analyze or debug other systems.
+  - Example: `diag_ProjectName.ajc`
 
 - **edu_** (or **college_** or **school_**): Used for academic projects related to coursework or research.
   - Example: `edu_ProjectName.ajc`
@@ -53,6 +59,13 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
 - **.org**: Indicates a repository associated with a non-profit organization or community project.
   - Example: `ProjectName.org`
 
+- **.techname**: Indicates the use of a specific technology or programming language.
+  - Example: `ProjectName.techname.ajc`
+  - Example: `ProjectName.html`
+  - Example: `ProjectName.js`
+  - Example: `ProjectName.py.ajc`
+  - Example: `ProjectName.wp`
+
 ### Combined Tags
 
 - Repositories can use a combination of prefixes and suffixes to provide a detailed context.
@@ -60,11 +73,8 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
   - Example: `sandbox_DatabaseExperiments.ajc`
   - Example: `edu_DataScienceProject.ajc`
   - Example: `priv_PersonalDiary.ajc`
-
-### Additional Tags
-
-- **html**: Indicates the use of HTML or web technologies.
-  - Example: `priv_ProjectName.html.ajc`
+  - Example: `lib_AlgorithmImplementations.py.ajc`
+  - Example: `app_WebAppProject.js`
 
 ## Examples
 
