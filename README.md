@@ -64,19 +64,19 @@ Details on the tagging system used to organize repositories and indicate the int
 
 - [Tagging System](guidelines/source-control/git/tagging-notation.md)
 
-### Universal Coding Practices
+## Universal Coding Practices
 
 Best practices and guidelines for coding and project management.
 
 - [Universal Coding Practices](guidelines/universal-coding-practices/universal-coding-practices-overview.md)
 
-#### File Naming
+### File Naming
 
 Standards and conventions for naming files across different projects.
 
 - [File Naming](guidelines/universal-coding-practices/file-naming.md)
 
-#### Directory Structures
+### Directory Structures
 
 Guidelines on organizing directories within projects for better manageability and consistency.
 
