@@ -40,6 +40,11 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
     - `_DOMAIN_ProjectName.ajc`
     - `_DOMAIN_Web-Optimization.ajc`
 
+- **_TEMPLATE_**: Used for repositories that contain templates for projects, documentation, or other purposes. Begins with an underscore to indicate its special purpose and priority. Generally generated as a template repository.
+  - Example: 
+    - `_TEMPLATE_ProjectName.ajc`
+    - `_TEMPLATE_Documentation.ajc`
+
 ### Suffixes
 
 - **.ajc**: Indicates personal creation, a unique identifier for repositories created by me.
