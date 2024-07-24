@@ -62,7 +62,7 @@ Documentation on how to write plain-text compatible syntax for easy transfer of 
 
 Details on the tagging system used to organize repositories and indicate the intention or phase of the project.
 
-- [Tagging System](guidelines/version-control/git/tagging-notation.md)
+- [Tagging System](guidelines/source-control/git/tagging-notation.md)
 
 ### Universal Coding Practices
 
@@ -90,10 +90,10 @@ Strategies and practices for managing projects efficiently.
 
 ### Git Overview
 
-Best practices and guidelines for using Git version control.
+Best practices and guidelines for using Git source control.
 
-- [Git Overview](guidelines/version-control/git/git-overview.md)
-- [Git Repo Tagging Notation](guidelines/version-control/git/tagging-notation.md)
+- [Git Overview](guidelines/source-control/git/git-overview.md)
+- [Git Repo Tagging Notation](guidelines/source-control/git/tagging-notation.md)
 
 ### Open Source Licensing
 
@@ -171,13 +171,13 @@ An example project documentation to serve as a reference.
 
 Guidelines and templates for reviewing and referencing external repositories.
 
-- [External Repository Overview](guidelines/version-control/git/external-repositories/external-repository-overview.md)
+- [External Repository Overview](guidelines/source-control/git/external-repositories/external-repository-overview.md)
 
 ### Starred Repo Review Template
 
 A template for reviewing repositories that have been starred for future reference.
 
-- [Starred/Watched Repo Review Template](guidelines/version-control/git/external-repositories/starred-repos/starred-repo-review-template.md)
+- [Starred/Watched Repo Review Template](guidelines/source-control/git/external-repositories/starred-repos/starred-repo-review-template.md)
 
 ## ChatGPT/CoPilot/LLM Notes
 
