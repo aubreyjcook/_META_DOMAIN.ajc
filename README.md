@@ -58,6 +58,8 @@ Documentation on how to write plain-text compatible syntax for easy transfer of 
 
 - [Plain-text Compatible Syntax Guidelines](guidelines/plain-text-notation.md)
 
+**Note:** A markdown file is usually located in each header directory and is used to provide an overview of the contents and context of that directory.
+
 ### Tagging System
 
 Details on the tagging system used to organize repositories and indicate the intention or phase of the project.
@@ -81,6 +83,8 @@ Standards and conventions for naming files across different projects.
 Guidelines on organizing directories within projects for better manageability and consistency.
 
 - [Directory Structures](guidelines/universal-coding-practices/directory-structures.md)
+
+**Note:** When a subdirectory is created, a markdown file is usually located in that directory to provide an overview of the contents and context of that directory.
 
 ## Project Management Overview
 
