@@ -50,7 +50,7 @@ This repository is a collection of notes and ideas that aren't explicitly relate
 
 For more detailed information, please refer to the individual markdown files in this repository.
 
-## Guidelines
+## Guidelines <!-- TODO: Possibly link this out to its own doc -->
 
 ### Plain-text Compatible Syntax Guidelines
 
