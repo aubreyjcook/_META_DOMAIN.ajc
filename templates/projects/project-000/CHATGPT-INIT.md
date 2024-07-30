@@ -1,0 +1,1 @@
+# ChatGPT Initial Project Outline Discussion
