@@ -91,6 +91,7 @@ Guidelines on organizing directories within projects for better manageability an
 Strategies and practices for managing projects efficiently.
 
 - [Project Management Overview](guidelines/project-management/project-management-overview.md)
+- [Guidelines for Initializing Coding Projects](guidelines/project-management/project-preparation/project-initializations-overview.md)
 
 ## Git Overview
 
