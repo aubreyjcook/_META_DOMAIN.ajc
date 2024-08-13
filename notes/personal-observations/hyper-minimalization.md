@@ -27,3 +27,12 @@ There are three main advantages to hyper-minimalization:
 ### Disadvantages
 
 There are also disadvantages to hyper-minimalization:
+
+
+## Applications
+
+There are two main applications of hyper-minimalization:
+
+1. **Initial Project Strategic Outlook**: 
+
+2. **Retrofitting Existing Projects**
