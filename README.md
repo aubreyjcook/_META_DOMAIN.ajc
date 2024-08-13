@@ -84,7 +84,7 @@ Guidelines on organizing directories within projects for better manageability an
 
 - [Directory Structures](guidelines/universal-coding-practices/directory-structures.md)
 
-**Note:** When a subdirectory is created, a markdown file is usually located in that directory to provide an overview of the contents and context of that directory.
+**Note:** When a subdirectory is created, a markdown file is usually located in that directory to provide an overview of the contents and context of that directory. This file is removed when its content is no longer applicable or the code itself is sufficiently documented.
 
 ## Project Management Overview
 
