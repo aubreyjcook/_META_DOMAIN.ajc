@@ -14,12 +14,14 @@ The content of this repo is intended to be comprised of code created with this t
 
 This repo was created and maintained mainly by developer AJC. This outline is meant to overview the developers personal understanding and application of the technology, as such it includes personal observations and documentation that represents the domain of the developers knowledge. The documentation listed in this outline isn't intended to comprehensively document the technology, but when documentation mirrors official documentation, it is intended to be a reflection of the developers understanding of the technology and specify highly relevant key points to the developers personal application and experience with the technology.
 
-## Fundamentals
+## Technology Overview
 
-## Primary Resources
+### Fundamentals
 
-### Documentation
+### Primary Resources
 
-### Tutorials
+#### Documentation
 
-### Articles
+#### Tutorials
+
+#### Articles
