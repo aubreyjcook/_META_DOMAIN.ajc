@@ -6,6 +6,5 @@ This section contains personal observations, reflections, and notes on various t
 
 ## Table of Contents
 
-- [Personal Learning and Growth](personal-learning.md)
 - [Hyper Minimalization Techniques in Web Development](hyper-minimalization.md)
 - [Sub-Disciplines of Development](sub-disciplines-of-development.md)
