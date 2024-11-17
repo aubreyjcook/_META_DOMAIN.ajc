@@ -16,6 +16,8 @@ This repo was created and maintained mainly by developer AJC. This outline is me
 
 ## Technology Overview
 
+### Description
+
 ### Fundamentals
 
 ### Primary Resources
