@@ -86,6 +86,12 @@ Guidelines on organizing directories within projects for better manageability an
 
 **Note:** When a subdirectory is created, a markdown file is usually located in that directory to provide an overview of the contents and context of that directory. This file is removed when its content is no longer applicable or the code itself is sufficiently documented.
 
+## Documentation Practices & Outlooks
+
+Guidelines and practices for documenting code and projects effectively.
+
+- [Documentation Practices](guidelines/universal-coding-practices/documentation-practices.md)
+
 ## Project Management Overview
 
 Strategies and practices for managing projects efficiently.
