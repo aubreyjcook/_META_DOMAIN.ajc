@@ -10,4 +10,44 @@ There are usually two kinds of commits that occur, changes to project documentat
 
 For the most part, documentation change commits require less complexity. It's good to name the document that was changed and possibly the section, especially if the document is large but well organized using markup.
 
+A good way to indicate this is to lead the commit message as follows:
+
+```
+
+update doc: 
+
+```
+
 ### Source Code Commits
+
+A good way to indicate this is to lead the commit message as follows:
+
+```
+
+update src: 
+
+```
+
+### Repo Commits
+
+Repo Commits are when a general change is made to the whole repo, this is usually a combination of both documentation and source code commits, along with potential directory structure changes.
+
+A good way to indicate this is to lead the commit message as follows:
+
+```
+
+update repo: 
+
+```
+
+#### Directory Structure Commits
+
+Directory structure commits are maintenance commits that are necessary when a file or directory is created, moved, or deleted. These commits are important to keep the project organized and maintainable. Directory structure commits can be highly specific or generalized. If a commit is mainly only a change in directory structure it should be indicated as such.
+
+A good way to indicate this is to lead the commit message as follows:
+
+```
+
+update dir: 
+
+```
