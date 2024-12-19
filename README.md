@@ -43,6 +43,7 @@ This repository is designed with the intention of being able to be forked and pe
   - [Electronics/Physical Computing Overview](#electronicsphysical-computing-overview)
   - [Mathematics Overview](#mathematics-overview)
   - [Personal Observations](#personal-observations)
+- [Todos](#todos)
 
 ## Introduction
 
@@ -227,3 +228,9 @@ A collection of notes that do not fit into the other categories but are still im
 - [Electronics/Physical Computing Overview](notes/electronics/electronics-overview.md)
 - [Mathematics Overview](notes/mathematics/mathematics-overview.md)
 - [Personal Observations](notes/personal-observations/personal-observations-overview.md)
+
+## Todos
+
+- [ ] Todo 1
+- [ ] Todo 2
+
