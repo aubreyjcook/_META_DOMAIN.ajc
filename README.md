@@ -231,6 +231,6 @@ A collection of notes that do not fit into the other categories but are still im
 
 ## Todos
 
-- [ ] Todo 1
+- [ ] Re-index sections within main README
 - [ ] Todo 2
 
