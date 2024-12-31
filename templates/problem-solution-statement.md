@@ -30,6 +30,7 @@ The proposed solution is a task management application that allows users to crea
 Identify the key objectives and goals that the solution aims to achieve. This helps in setting clear expectations and success criteria for the project.
 
 **Example:**
+
 - Provide an intuitive interface for task creation and management.
 - Allow users to prioritize tasks and set deadlines.
 - Send timely reminders for upcoming deadlines.
