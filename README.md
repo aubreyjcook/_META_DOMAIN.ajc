@@ -6,7 +6,7 @@ This repository serves as a centralized location for notes, ideas, concepts, and
 
 Content is not written as a tutorial or guide for others but rather as a reference for the developer themselves. It is a collection of personal observations and guidelines that help maintain consistency and organization across projects.
 
-This repository is designed with the intention of being able to be forked and personalized for individual use by other developers, by the same developer in other contexts, or by orgs, to maintain their own set of separate guidelines and notes.
+This repository is designed with the intention of being able to be forked and personalized for individual use by other developers, by the same developer in other contexts, or by orgs, to maintain their own set of separate guidelines and notes. a
 
 ## Table of Contents <!-- TODO: Regenerate Table of Contents -->
 
