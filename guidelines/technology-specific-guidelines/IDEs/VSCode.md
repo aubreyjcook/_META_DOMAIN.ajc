@@ -12,7 +12,8 @@ Here's the process:
 
 1. Config SSH keys for each account locally. (You do this via terminal and have the option of various encryption methods.)
 2. Config the SSH config file within system environment under `~/.ssh/config` to use the correct SSH key for each account. This was done on Windows, in Linux or MacOS it may differ. It looks something like
-```# Main GitHub account
+```
+# Main GitHub account
 Host github.com
   User git
   HostName github.com
@@ -24,6 +25,7 @@ Host github-secondary
   HostName github.com
   IdentityFile ~/.ssh/id_rsa_secondary
 ```
+
 Notably you do not redefine the user, it's meant to be `git` nor the hostname, although that would be obvious. The main thing that needs to be defined is the `IdentityFile` which must be defined with an accurate path to the SSH key you generated in step 1. I've found it's better to include the ssh key within the same directory as the config file.
 3. Add the SSH key to the Github accounts. You needed to grab the public key from the terminal from what you made in step 1 to do this.
 4. Open VS Code and go into a repo, either cloned from one of the accounts or whatever.
