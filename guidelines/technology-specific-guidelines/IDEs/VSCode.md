@@ -11,8 +11,7 @@ Configuring multiple accounts to use with Github in VS Code is rather annoying t
 Here's the process:
 
 1. Config SSH keys for each account locally. (You do this via terminal and have the option of various encryption methods.)
-2. Config the SSH config file within system environment under `~/.ssh/config` to use the correct SSH key for each account.
-3. Add the SSH key to the Github accounts. You needed to grab the public key from the terminal from what you made in step 1 to do this. It looks something like 
+2. Config the SSH config file within system environment under `~/.ssh/config` to use the correct SSH key for each account. This was done on Windows, in Linux or MacOS it may differ. It looks something like
 ```# Main GitHub account
 Host github.com
   User git
@@ -25,7 +24,8 @@ Host github-secondary
   HostName github.com
   IdentityFile ~/.ssh/id_rsa_secondary
 ```
-
+Notably you do not redefine the user, it's meant to be `git` nor the hostname, although that would be obvious. The main thing that needs to be defined is the `IdentityFile` which must be defined with an accurate path to the SSH key you generated in step 1. I've found it's better to include the ssh key within the same directory as the config file.
+3. Add the SSH key to the Github accounts. You needed to grab the public key from the terminal from what you made in step 1 to do this.
 4. Open VS Code and go into a repo, either cloned from one of the accounts or whatever.
 5. In terminal define `git config --local user.name "username"` and `git config --local user.email "useremail"` for the repo. Note that defining it in local instead of global is important. Once this is defined in the local repo, it's persistent and does not need to be redefined for each commit or instance of VS Code.
 6. In terminal define the `git remote set-url origin git@github-secondary:username/reponame.git` to set the remote origin to the correct account. This is also persistent and does not need to be redefined for each commit or instance of VS Code. The main command doesn't change much. The 'url' that the command points to is the main concern. It's comprised of `git@` then `github-secondary:` or main or primary or whatever, this is defined in the SSH config file above. Then following is the `username/reponame.git` which is the account and repo name you're working with. You can verify this after setting it by running `git remote -v` in the terminal. Notably, this variable is often defined by default, but when using SSH keys it tends to be wrong in the sense that it attempts to use HTTPS typically by default which will not work. The main error you see when failing to set this when everything else is correct is that the repo doesn't exist, but you can also get permission denied when it's combined with not setting the ssh/user config correctly.
