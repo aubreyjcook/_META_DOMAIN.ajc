@@ -10,7 +10,7 @@ Configuring multiple accounts to use with Github in VS Code is rather annoying t
 
 Here's the process:
 
-1. Config SSH keys for each account locally. (You do this via terminal and have the option of various encryption methods.)
+1. Config SSH keys for each account locally. (You do this via terminal and have the option of various encryption methods.) It's an option to set a passphrase here but I have found it to be tedious, as you will be prompted for it with every commit.
 2. Config the SSH config file within system environment under `~/.ssh/config` to use the correct SSH key for each account. This was done on Windows, in Linux or MacOS it may differ. It looks something like
 ```
 # Main GitHub account
