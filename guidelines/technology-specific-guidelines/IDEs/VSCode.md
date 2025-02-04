@@ -27,6 +27,7 @@ Host github-secondary
 ```
 
 Notably you do not redefine the user, it's meant to be `git` nor the hostname, although that would be obvious. The main thing that needs to be defined is the `IdentityFile` which must be defined with an accurate path to the SSH key you generated in step 1. I've found it's better to include the ssh key within the same directory as the config file.
+
 3. Add the SSH key to the Github accounts. You needed to grab the public key from the terminal from what you made in step 1 to do this.
 4. Open VS Code and go into a repo, either cloned from one of the accounts or whatever.
 5. In terminal define `git config --local user.name "username"` and `git config --local user.email "useremail"` for the repo. Note that defining it in local instead of global is important. Once this is defined in the local repo, it's persistent and does not need to be redefined for each commit or instance of VS Code.
