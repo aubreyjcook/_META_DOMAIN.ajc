@@ -130,9 +130,10 @@ An overview of web security practices and considerations.
 Guidelines tailored to specific technologies used in various projects.
 
 - [Technology-Specific Guidelines](guidelines/technology-specific-guidelines/technology-specific-guidelines-overview.md)
-- [Operating Systems](guidelines/technology-specific-guidelines/operating-systems-overview.md)
-- [IDEs and Editors](guidelines/technology-specific-guidelines/ides-overview.md)
-- [Applications](guidelines/technology-specific-guidelines/applications-overview.md)
+  - [Operating Systems](guidelines/technology-specific-guidelines/operating-systems-overview.md)
+  - [IDEs and Editors](guidelines/technology-specific-guidelines/ides/ides-overview.md)
+    - [Visual Studio Code](guidelines/technology-specific-guidelines/ides/vscode-overview.md)
+  - [Applications](guidelines/technology-specific-guidelines/applications-overview.md)
 
 ## Project Preparation
 
