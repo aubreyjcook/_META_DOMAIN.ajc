@@ -11,9 +11,16 @@ Guidelines tailored to specific technologies used in various projects.
 ## Resources
 
 - [Technology-Specific Guidelines](technology-specific-guidelines-overview.md)
-- [IDE Guidelines](IDEs/ides-guidelines.md)
-- [Operating System Guidelines](operating-systems/operating-systems-guidelines.md)
-- [Application Development Guidelines](applications/applications-development-guidelines.md)
+  - [IDE Guidelines](IDEs/ides-guidelines.md)
+    - [Visual Studio Code Guidelines](technology-specific-guidelines/IDEs/vscode.md)
+  - [Operating System Guidelines](operating-systems/operating-systems-guidelines.md)
+    - [Windows Guidelines](technology-specific-guidelines/operating-systems/windows.md)
+    - [Linux Guidelines](technology-specific-guidelines/operating-systems/linux.md)
+      - [Debian Guidelines](technology-specific-guidelines/operating-systems/debian.md)
+        - [Parrot OS Guidelines](operating-systems/parrot-os.md)
+      - [Arch Linux Guidelines](technology-specific-guidelines/operating-systems/arch-linux.md)
+        - [BlackArch Guidelines](technology-specific-guidelines/operating-systems/blackarch.md)
+  - [Application Guidelines](technology-specific-guidelines/applications/applications-development-guidelines.md)
 
 ## Examples
 
