@@ -12,6 +12,8 @@ Branching is a feature in Git repositories that creates a separate line of devel
 
 Any Git repo is initalized with a default branch called `main` or `master`.
 
+### Branching Separations
+
 A typical branching workflow includes creating branches for build, production, and development or deployment depending on the project requirements. There are some other branches that are common, especially with relation to testing, but these typically comprise the main ones that are involved in the direct development pipeline.
 
 To understand the distinctions between these branches, I'll describe the main outlook of each of these types of branches.
@@ -25,3 +27,39 @@ To understand the distinctions between these branches, I'll describe the main ou
 **Build:** <!-- TODO: Describe the build branch -->
 
 **Production:** <!-- TODO: Describe the build branch -->
+
+### Local Pre-Branching Directory Structure Planning
+
+Utilizing a multi branch setup like the one previously described creates a need to manage your local directory containing your repos differently than if you only maintained a single main branch.
+
+Normally one would clone the main branch and work within in it, but if you clone the main branch and then need to instantiate one of your other working branches, it cannot be within the same directory as the main branch as it creates conflicts.
+
+To resolve this in a cleaner manner, you can create a containing directory that holds each cloned branch in separate directories nested within.
+
+For example:
+    
+1. Go into the directory where you normally store most project repos cohesively, or wherever you intend to store the generalized repo for the project.
+2. Create a directory like 'repo-{project-name}'.
+3. Clone the main branch into the directory you just created.
+4. Use the git worktree command 
+
+```
+git worktree add ../branch-name branch-name
+```
+(note the ../ up directory path modifier)
+
+to declare a new branch corresponding to the one you intend to clone (you usually need to make this before hand, and while the name does not need to match the existing branch, this probably saves you trouble) like 'src' in a new directory within the containing directory you just created.
+5. Repeat this for any additional branches you have created to work on separately.
+
+The result is a single directory that contains directories that represent the separate branches. The main branch is named after your actual default repo, so to avoid redundant nesting you name the 'root' directory containing each of these separate branch instances 'repo-{project-name}'. And additionally you can identify the main branch that you stored there.
+
+If you want to have a more manual and fine grain control of this process, you can alter the names of the directories you clone directly, with commands:
+
+```
+git clone https://github.com/username/repo.git my-custom-directory
+```
+
+```
+git clone --branch my-branch --single-branch https://github.com/username/repo.git my-custom-directory
+```
+This allows more specific customization of your directories and can remove the necessity of using the main directory as I described if you would prefer this instead of the simpler method I described.
