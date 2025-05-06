@@ -38,4 +38,4 @@ Notably you do not redefine the user, it's meant to be `git` nor the hostname, a
 9. Make commits/pushes as normal. A way to verify you are getting the right account is to commit but not push, then verify the author of the commit which shows in the source control timeline or in the terminal with `git log`. If it's the wrong account, you need to go back and check the steps above.
 
 Reclone note:
-You usually have to run `git remote set-url origin git@github-secondary:username/reponame.git` and `ssh -T git@github-secondary` after recloning and initializing the git config with the right info.
+You usually have to run `git remote set-url origin git@github-secondary:username/reponame.git` and `ssh -T git@github-secondary` after recloning and initializing the local git config with the right info. The info must match your global git config if assigned and the correct SSH credentials.
