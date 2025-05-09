@@ -44,7 +44,7 @@ The purpose of this document is to provide a template for initially documenting 
 
 ## Pre-Dev
 
-### Psuedo-Code (Optional)
+### Pseudo-Code (Optional)
 
 ```
 // Psuedo-Code
@@ -53,7 +53,7 @@ The purpose of this document is to provide a template for initially documenting 
 ### Pseudo-Directory-Structure (Optional)
 
 ```
-// Pseudo-Structure
+// Psuedo-Structure
 ```
 
 ### Config-Init Log (Semi-Optional)
