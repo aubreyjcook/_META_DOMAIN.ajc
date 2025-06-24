@@ -41,7 +41,7 @@ For example:
 1. Go into the directory where you normally store most project repos cohesively, or wherever you intend to store the generalized repo for the project.
 2. Create a directory like 'repo-{project-name}'.
 3. Clone the main branch into the directory you just created.
-4. Use the git worktree command 
+4. Use the git worktree command - this is done within the directory of the main branch you just cloned. Thus it will execute the command in a higher directory which you used as the root given the name 'repo-{project-name}'.
 
 ```
 git worktree add ../branch-name branch-name
