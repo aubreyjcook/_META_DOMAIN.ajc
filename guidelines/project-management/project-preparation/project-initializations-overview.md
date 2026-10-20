@@ -14,8 +14,8 @@ Guidelines for setting up new coding projects, especially on GitHub, to ensure a
 
 ## Project Initial Documentation
 
-- [Main Readme](###Main-Readme)
-- [ChatGPT Initial Project Outline Discussion](###ChatGPT-Initial-Project-Outline-Discussion)
+- [Main Readme](#main-readme)
+- [ChatGPT Initial Project Outline Discussion](#chatgpt-initial-project-outline-discussion)
 
 ### Main Readme
 

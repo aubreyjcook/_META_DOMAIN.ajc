@@ -4,10 +4,6 @@
 
 This is an overview of guidelines regarding documentation practices from a universal outlook with respect to coding and project management.
 
-## Todos
-
-- [ ] Todo 1
-
 ## Documentation Guidelines
 
 ### Inline Documentation vs External Documentation
@@ -51,4 +47,4 @@ An additional document that may be included with such a project is Software Arch
 
 For a simple project init readme template, see link:
 
-- [Simple Project Init Readme Template](templates/project-init-readme.md)
+- [Simple Project Init Readme Template](../../templates/project-init-readme.md)

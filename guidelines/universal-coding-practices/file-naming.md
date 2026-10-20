@@ -1,112 +1,33 @@
 # File Naming Guidelines
 
-## Purpose <!-- TODO: Rewrite this. -->
+## Purpose
 
-This document provides guidelines for naming files within the meta GitHub notes repository as well as other repositories. Consistent and descriptive file names improve organization and readability, making it easier to locate and understand the contents of each file.
+How files are named in this repository, and a lighter convention for other repos. Names should be readable, consistent, and safe on case-sensitive filesystems.
 
-## General Principles
+## This repository
 
-1. **Clarity**: File names should be clear and descriptive of the file's content.
-2. **Consistency**: Use a consistent naming convention across all files and repositories.
-3. **Simplicity**: Keep file names as short as possible while maintaining clarity.
-4. **Lowercase**: Use lowercase letters to maintain uniformity and avoid issues with case sensitivity in different operating systems.
+1. **Lowercase** for files and directories.
+2. **Hyphens** between words (`file-naming.md`, not `file_naming.md` or `FileNaming.md`).
+3. **No spaces** in paths (`web-server`, not `web server`).
+4. **Overview files** for a directory: `{topic}-overview.md` sitting in that directory.
+5. **Note files**: `{topic}.md` without a `guideline-` or `note-` prefix. The folder already says what kind of page it is.
+6. **README.md** only at a repo or example-project root.
+7. Dates, when needed, use `YYYY-MM-DD`.
 
-## Meta GitHub Notes Repository
+Examples in this repo:
 
-### Notes
+- `guidelines/universal-coding-practices/file-naming.md`
+- `notes/personal-observations/hyper-minimalization.md`
+- `templates/projects/project-000/README.md`
 
-- **Format**: `note-<topic>-<date>.md`
-- **Example**: `note-github-audit-2024-07-01.md`
+## Other repositories
 
-### Concepts
+Keep the same lowercase-hyphen rule. Prefixes are optional when a mixed folder needs them:
 
-- **Format**: `concept-<topic>.md`
-- **Example**: `concept-tagging-system.md`
+- Source: `{module}-{functionality}.ext` — `user-authentication.js`
+- Config: `config-{purpose}.ext` — `config-database.yml`
+- Scripts: `script-{purpose}.ext` — `script-deploy.sh`
+- Tests: `test-{module}-{functionality}.ext`
+- Images: `img-{description}.{ext}`
 
-### Guidelines
-
-- **Format**: `guideline-<topic>.md`
-- **Example**: `guideline-file-naming.md`
-
-### Documentation
-
-- **Format**: `doc-<topic>.md`
-- **Example**: `doc-project-overview.md`
-
-## Other Repositories
-
-### Source Code Files
-
-- **Format**: `<module>-<functionality>.ext`
-- **Example**: `user-authentication.js`
-
-### Configuration Files
-
-- **Format**: `config-<purpose>.ext`
-- **Example**: `config-database.yml`
-
-### Scripts
-
-- **Format**: `script-<purpose>.ext`
-- **Example**: `script-deploy.sh`
-
-### Tests
-
-- **Format**: `test-<module>-<functionality>.ext`
-- **Example**: `test-user-authentication.js`
-
-### Documentation
-
-- **Format**: `doc-<topic>.md`
-- **Example**: `doc-installation-guide.md`
-
-### Assets
-
-#### Images
-
-- **Format**: `img-<description>.<ext>`
-- **Example**: `img-logo.png`
-
-#### Stylesheets
-
-- **Format**: `style-<description>.css`
-- **Example**: `style-main.css`
-
-### Examples
-
-- **Format**: `example-<description>.ext`
-- **Example**: `example-usage.js`
-
-### README and LICENSE
-
-- **Format**: `README.md`, `LICENSE`
-- **Example**: `README.md`, `LICENSE`
-
-## Naming Conventions for Dates
-
-When including dates in file names, use the `YYYY-MM-DD` format to maintain chronological order and clarity.
-- **Format**: `note-<topic>-YYYY-MM-DD.md`
-- **Example**: `note-github-audit-2024-07-01.md`
-
-## Special Characters
-
-Avoid using special characters in file names. Stick to alphanumeric characters, hyphens (`-`), and underscores (`_`).
-
-## Examples of Good File Names
-
-- `note-github-audit-2024-07-01.md`
-- `concept-tagging-system.md`
-- `guideline-file-naming.md`
-- `doc-project-overview.md`
-- `user-authentication.js`
-- `config-database.yml`
-- `script-deploy.sh`
-- `test-user-authentication.js`
-- `doc-installation-guide.md`
-- `img-logo.png`
-- `style-main.css`
-- `example-usage.js`
-
-## Conclusion
-
-Adhering to these file naming guidelines will ensure consistency and clarity across all repositories, making it easier to manage and understand the contents of each file. Modify and expand these guidelines as needed to suit specific project requirements.
+Repo-level names (prefixes such as `dev_`, `sandbox_`, `_META_`) are documented in [tagging notation](../source-control/git/tagging-notation.md), not here.

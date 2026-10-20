@@ -1,6 +1,7 @@
 # Universal Coding Practices
 
-Best practices and guidelines for coding and project management.
+Conventions that apply across projects, independent of language or stack.
 
-
-
+- [File naming](file-naming.md)
+- [Directory structures](directory-structures.md)
+- [Documentation practices](documentation-practices.md)

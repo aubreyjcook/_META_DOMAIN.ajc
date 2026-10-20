@@ -1,10 +1,10 @@
 # Templates Overview
 
-Overview of the different templates available for use in projects.
+Copy-paste starters for new notes and projects.
 
-## Templates
-
-- [Problem-Solution Statement](problem-solution-statement.md)
-- [Project Initialization Readme](project-init-readme.md)
-- [Drive Template](drive-template.md)
-- [Sandbox Outline](sandbox-outline-template.md)
+- [Problem-solution statement](problem-solution-statement.md)
+- [Project initialization README](project-init-readme.md)
+- [Drive template](drive-template.md)
+- [Sandbox outline](sandbox-outline-template.md)
+- [Personal observations note](notes/personal-observations-000.md)
+- [Example project](projects/project-000/README.md)

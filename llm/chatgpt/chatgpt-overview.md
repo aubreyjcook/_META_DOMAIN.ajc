@@ -1,10 +1,6 @@
-# ChatGPT Overview & Documentation
+# ChatGPT Overview
 
 Documentation on using ChatGPT for various tasks and projects.
-
-- [ChatGPT Overview](llm/chatgpt/chatgpt-overview.md)
-
-## ChatGPT Overview
 
 ChatGPT is a LLM (Large Language Model) that can be used for a variety of tasks, including generating text, answering questions, summarizing text, and more. It is based on the GPT-3 architecture and is trained on a diverse range of internet text.
 

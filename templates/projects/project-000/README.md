@@ -16,20 +16,19 @@ Overview of the project. This section is usually not removed but updated when th
 
 Initial project purpose statment, possibly include problem and solution statement, if so it is linked. This section is usually removed or moved to a different part of the documentation when the project is sufficiently developed or completed.
 
-- [Problem Solution Statement](problem-solution-statement.md)
+- [Problem Solution Statement](../../problem-solution-statement.md)
 
 ### Docs
 
 If additional initial docs that are separate from the readme are included in the initial project outline, they are linked here. This section is usually removed or moved to a different part of the documentation when the project is sufficiently developed or completed.
 
-- [Doc 1](doc001.md)
-- [Doc 2](doc002.md)
+- Add links here when extra docs exist (do not leave placeholder filenames).
 
 ### Pseudo Code
 
 If applicable, link for initial pseudo code for the project. This section is usually removed or moved to a different part of the documentation when the project is sufficiently developed or completed.
 
-- [Pseudo Code](pseudo-code.md)
+- Add a `pseudo-code.md` link here when that file exists.
 
 ### Initial Suggested Directory Structure Example
 

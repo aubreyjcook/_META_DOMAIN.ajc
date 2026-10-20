@@ -12,7 +12,7 @@ While Next.js itself is based on a specific stack, the nature of Next allows it 
 
 There are various ways to do this.
 
-# Differences between create-next-app and manual setup -- Deepseek
+# Differences between create-next-app and manual setup
 
 ```
 Let's break down the differences between the automated create-next-app method and the "manual" npm/pnpm installation, and then explore some other powerful ways to instantiate a Next.js project.
