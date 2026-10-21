@@ -1,4 +1,4 @@
-# ChatGPT Notes: Plain Text Notation Guidelines
+# Plain Text Notation Guidelines
 
 To effectively organize notes in plain text while maintaining an intuitive structure, you can adopt several methods and resources that have been developed by others. Here are some approaches:
 

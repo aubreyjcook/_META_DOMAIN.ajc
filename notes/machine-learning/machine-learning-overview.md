@@ -1,5 +1,3 @@
 # Machine Learning Overview
 
-General overview of machine learning notes and documentation as they relate to computer science, programming, and electronic engineering.
-
-## Table of Contents
+Placeholder for machine learning notes. There are no child pages in this directory yet.

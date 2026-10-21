@@ -1,3 +1,5 @@
-# External Repository  Overview
+# External Repository Overview
 
-Guidelines and templates for contributing to, reviewing, and referencing external repositories.
+Guidelines and templates for reviewing and referencing other people's repositories.
+
+- [Starred repo review template](starred-repos/starred-repo-review-template.md)

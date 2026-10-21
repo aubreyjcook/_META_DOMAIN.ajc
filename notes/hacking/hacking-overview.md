@@ -1,14 +1,5 @@
 # Hacking Overview
 
-General overview of hacking notes and documentation as they relate to computer science, programming, and electronic engineering.
+Placeholder for notes on cryptography, security, forensics, networking, and related topics as they connect to programming and electronics. There are no child pages in this directory yet.
 
-## Table of Contents
-
-- [Cryptography](cryptography/cryptography-overview.md)
-- [Cybersecurity](cybersecurity/cybersecurity-overview.md)
-- [Forensics](forensics/forensics-overview.md)
-- [Networking](networking/networking-overview.md)
-- [Penetration Testing](penetration-testing/penetration-testing-overview.md)
-- [Reverse Engineering](reverse-engineering/reverse-engineering-overview.md)
-- [Web Security](web-security/web-security-overview.md)
-- [Wireless Security](wireless-security/wireless-security-overview.md)
+Related existing notes live under [numeric PIN ciphering](../security/numeric-pin-ciphering.md).

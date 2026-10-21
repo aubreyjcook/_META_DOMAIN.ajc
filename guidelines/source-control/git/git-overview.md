@@ -1,43 +1,17 @@
 # Git Guidelines Overview
 
-Best practices and guidelines for using Git version control.
+Personal Git conventions. Links below are relative to this file.
 
-- [Git Overview](guidelines/git/git-overview.md)
+## Written
 
-## Git Commits
+- [Repo tagging / naming](tagging-notation.md)
+- [Commit changes](commit-changes.md)
+- [Commit messages](commit-messages.md)
+- [Issues](issues.md)
+- [Branching](branching.md)
+- [External repositories](external-repositories/external-repository-overview.md)
+  - [Starred repo review template](external-repositories/starred-repos/starred-repo-review-template.md)
 
--[Commit Changes](guidelines/git/commit-changes.md)
--[Commit Messages](guidelines/git/commit-messages.md)
+## Not written yet
 
-## Git Issues
-
--[Issues](guidelines/git/issues.md)
-
-## Git Branching
-
--[Git Branching](guidelines/git/branching.md)
-
-## Git Synchronization
-
--[Git Synchronization](guidelines/git/synchronization.md)
-
-## Git Pull Requests
-
--[Pull Requests](guidelines/git/pull-requests.md)
-
-## Git Forking
-
--[Forking](guidelines/git/forks.md)
-
-## Git Merging
-
--[Merging](guidelines/git/merging.md)
-
-## Git Reverts
-
--[Reverting Changes](guidelines/git/reverts.md)
-
-## Git Configuration
-
--[Configuration](guidelines/git/configuration.md)
--[Ignoring Files](guidelines/git/ignore.md)
+Synchronization, pull requests, forking, merging, reverts, configuration, and ignore-file notes belong here when they exist.

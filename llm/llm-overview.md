@@ -1,3 +1,7 @@
-# Language Learning Models (LLM) Overview & Other ML-Assisted Algorithms
+# LLM Overview
 
-General overview of large language models (LLMs) and their applications.
+Notes on using large language models as development tools.
+
+- [ChatGPT](chatgpt/chatgpt-overview.md)
+- [Saved generation template](chatgpt/saved-generations/chatgpt-generated-content-template.md)
+- [GitHub Copilot](co-pilot/copilot-overview.md)
