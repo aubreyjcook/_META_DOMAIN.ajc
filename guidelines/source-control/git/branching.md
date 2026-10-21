@@ -36,7 +36,7 @@ Normally one would clone the main branch and work within in it, but if you clone
 
 To resolve this in a cleaner manner, you can create a containing directory that holds each cloned branch in separate directories nested within.
 
-For example:
+**For example:**
     
 1. Go into the directory where you normally store most project repos cohesively, or wherever you intend to store the generalized repo for the project.
 2. Create a directory like 'repo-{project-name}'.
