@@ -14,6 +14,10 @@ create versions in directories given as v0_0x, eg (v0_01, v0_02, v0_03, etc) sin
 
 whenever you finish a new version, document a roadmap for the next version
 
+**sub instructions**
+
+if there are major decisions, or questions, ask them for clarification
+
 ### notes
 
 there may be additional agent-instructions embedded in the nest directories
