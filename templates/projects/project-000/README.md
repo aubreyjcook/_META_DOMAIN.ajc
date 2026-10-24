@@ -14,7 +14,7 @@ Overview of the project. This section is usually not removed but updated when th
 
 ### Purpose Statement
 
-Initial project purpose statment, possibly include problem and solution statement, if so it is linked. This section is usually removed or moved to a different part of the documentation when the project is sufficiently developed or completed.
+Initial project purpose statement, possibly include problem and solution statement, if so it is linked. This section is usually removed or moved to a different part of the documentation when the project is sufficiently developed or completed.
 
 - [Problem Solution Statement](../../problem-solution-statement.md)
 

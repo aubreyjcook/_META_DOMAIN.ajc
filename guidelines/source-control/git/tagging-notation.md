@@ -18,7 +18,7 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
 - **sandbox_**: Used for experimental projects, prototypes, or less organized code.
   - Example: `sandbox_ProjectName.ajc`
 
-- **index_**: Used for repositories that serve as collections of projects that are implementations of a related engineering or scientific concept. These may be the same implementation in different languages or variations of the same concept. For example many solutions exist to resolve implementatoins of algorithms, automated testing, or machine learning, but may be implemented in different languages or with different libraries. Sometimes this tag is related to a repo that is purely information or notational and may not contain code.
+- **index_**: Used for repositories that serve as collections of projects that are implementations of a related engineering or scientific concept. These may be the same implementation in different languages or variations of the same concept. For example many solutions exist to resolve implementations of algorithms, automated testing, or machine learning, but may be implemented in different languages or with different libraries. Sometimes this tag is related to a repo that is purely information or notational and may not contain code.
   - Example: `index_ProjectName.ajc`
 
 - **app_**: Used for repositories that contain a complete application or software product.
@@ -41,7 +41,7 @@ The tagging system uses prefixes and suffixes in repository names to convey impo
     - `_META_ProjectName.ajc`
     - `_META_Git-RepoDocs.ajc`
 
-- **_DOMAIN_**: Used for repositories that contain a comprehensive resevoir of informational content and data that attempts to be a definitive description of known knowledge in a specific domain. Begins with an underscore to indicate its special purpose and priority.
+- **_DOMAIN_**: Used for repositories that contain a comprehensive reservoir of informational content and data that attempts to be a definitive description of known knowledge in a specific domain. Begins with an underscore to indicate its special purpose and priority.
   - Example: 
     - `_DOMAIN_ProjectName.ajc`
     - `_DOMAIN_Web-Optimization.ajc`

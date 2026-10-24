@@ -10,7 +10,7 @@ Personal Git conventions. Links below are relative to this file.
 - [Issues](issues.md)
 - [Branching](branching.md)
 - [External repositories](external-repositories/external-repository-overview.md)
-  - [Starred repo review template](external-repositories/starred-repos/starred-repo-review-template.md)
+  - [Starred repo review template](external-repositories/starred-repo-review-template.md)
 
 ## Not written yet
 

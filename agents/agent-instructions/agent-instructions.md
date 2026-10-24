@@ -1,26 +1,27 @@
-# agent instructions
+# Agent Instructions (Template)
 
-this file is meant to be the main directive of your instructions as you work in this repository, check this file each time you are given an explicit new set of instructions in case it has been updated
+## Purpose
 
-if there are major decisions, or questions, ask them for clarification
+This is a reusable directive for an agentic AI working inside a repository. Copy it into a project and replace the `{{...}}` placeholders before use. It is the "main directive" an agent should re-check whenever it is given a new set of instructions, in case the file has been updated.
 
-## agenda
+If the agent faces a major decision or an open question, it should ask for clarification rather than guess.
 
-**main**
+## Agenda
 
-this is {{software}} written or built in {{technology}}
+### Main
 
-**documentation**
+This is `{{software}}`, written or built in `{{technology}}`.
 
-there should be thorough documentation for how to use the program/software, as well as documentation created especially for someone who understands programming fundamentals and is trying to learn in order to understand the code, there should be documented overviews, as well as detailed in-line comments within the code base itself
+### Documentation
 
-**versioning**
+There should be thorough documentation for how to use the program/software, plus documentation written specifically for someone who understands programming fundamentals and is trying to learn by understanding the code. This means documented overviews and detailed inline comments within the codebase itself.
 
-create versions in directories given as v0_0x, eg (v0_01, v0_02, v0_03, etc) since this is in alpha, each version should include documentation on what has changed, again, with the intention of demonstrating to someone who is trying to learn the underlying language/technology, how the code works, and how to use the software
+### Versioning
 
-whenever you finish a new version, document a roadmap for the next version
+Create versions in directories named `v0_0x` (e.g. `v0_01`, `v0_02`, `v0_03`, …). Since this is alpha, each version should include documentation of what changed — again with the intent of demonstrating, to someone learning the underlying language/technology, how the code works and how to use the software.
 
+Whenever a new version is finished, document a roadmap for the next version.
 
-### notes
+### Notes
 
-there may be additional agent-instructions embedded in the nest directories
+There may be additional agent instructions embedded in nested directories; check for them.

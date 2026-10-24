@@ -18,7 +18,8 @@ The repo name mixes two prefix styles from the tagging notes: `_META_` (meta inf
 - [Templates](#templates)
 - [Notes](#notes)
 - [LLM notes](#llm-notes)
-- [Planning](#planning)
+- [Agents](#agents)
+- [Project planning](#project-planning)
 
 Each subject directory has an overview file that lists only files that currently exist in that directory.
 
@@ -52,7 +53,7 @@ Each subject directory has an overview file that lists only files that currently
 - [Branching](guidelines/source-control/git/branching.md)
 - [Issues](guidelines/source-control/git/issues.md)
 - [External repositories](guidelines/source-control/git/external-repositories/external-repository-overview.md)
-- [Starred repo review template](guidelines/source-control/git/external-repositories/starred-repos/starred-repo-review-template.md)
+- [Starred repo review template](guidelines/source-control/git/external-repositories/starred-repo-review-template.md)
 
 ### Open source licensing
 
@@ -64,8 +65,8 @@ Each subject directory has an overview file that lists only files that currently
 - [IDEs](guidelines/technology-specific-guidelines/ides/ides-overview.md)
   - [VS Code](guidelines/technology-specific-guidelines/ides/vscode.md)
 - [Operating systems](guidelines/technology-specific-guidelines/operating-systems/operating-systems-overview.md)
-  - [Windows](guidelines/technology-specific-guidelines/operating-systems/windows/os-windows-overview.md)
-  - [Linux](guidelines/technology-specific-guidelines/operating-systems/linux/os-linux-overview.md)
+  - [Windows](guidelines/technology-specific-guidelines/operating-systems/windows/windows-overview.md)
+  - [Linux](guidelines/technology-specific-guidelines/operating-systems/linux/linux-overview.md)
 - [Applications](guidelines/technology-specific-guidelines/applications/applications-overview.md)
 - [Next.js](guidelines/technology-specific-guidelines/frameworks/nextjs.md)
 - [Apache](guidelines/technology-specific-guidelines/web-server/apache.md)
@@ -88,12 +89,15 @@ Each subject directory has an overview file that lists only files that currently
   - [Hyper-minimalization](notes/personal-observations/hyper-minimalization.md)
   - [Maladaptive patterns](notes/personal-observations/maladaptive-patterns-of-development.md)
   - [Tech stacks](notes/personal-observations/tech-stacks.md)
-- [Security: numeric PIN ciphering](notes/security/numeric-pin-ciphering.md)
-- [Learning](notes/learning/learning-personal-development-overview.md)
+- [Hacking](notes/hacking/hacking-overview.md)
+  - [Fundamentals](notes/hacking/fundamentals/fundamentals-overview.md)
+    - [Binary](notes/hacking/fundamentals/binary.md)
+    - [Hexadecimal](notes/hacking/fundamentals/hexadecimal.md)
+  - [Numeric PIN ciphering](notes/hacking/numeric-pin-ciphering.md)
+- [Learning](notes/learning/learning-overview.md)
 - [Mathematics](notes/mathematics/mathematics-overview.md)
 - [Machine learning](notes/machine-learning/machine-learning-overview.md)
 - [Electronics](notes/electronics/electronics-overview.md)
-- [Hacking](notes/hacking/hacking-overview.md)
 - [Web](notes/web/web-overview.md)
 
 ## LLM notes
@@ -101,8 +105,13 @@ Each subject directory has an overview file that lists only files that currently
 - [Overview](llm/llm-overview.md)
 - [ChatGPT](llm/chatgpt/chatgpt-overview.md)
 - [Saved generation template](llm/chatgpt/saved-generations/chatgpt-generated-content-template.md)
-- [GitHub Copilot](llm/co-pilot/copilot-overview.md)
+- [GitHub Copilot](llm/copilot/copilot-overview.md)
 
-## Planning
+## Agents
+
+- [Overview](agents/agentic-ai-overview.md)
+- [Agent instructions](agents/agent-instructions/agent-instructions.md)
+
+## Project planning
 
 - [Educational/legacy repo consolidation](project-planning/edu-repos-consolidation.md)

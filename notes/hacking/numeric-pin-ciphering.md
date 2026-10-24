@@ -18,7 +18,7 @@ A length of 5 has 100,000 possible combinations, which is not feasible for a low
 
 When a PIN number is limited to a specific set of numbers, such as 0-9, the number of possible combinations is equal to the number of possible values raised to the power of the length of the PIN number. For example, a 4-digit PIN number with values 0-9 has 10^4 or 10,000 possible combinations.
 
-Generally, a pin number of length 6 and below is only pratical if it utilizes at least 10 possible values, such as 0-9, as the number of possible combinations is not feasible for a computer to brute force in a reasonable amount of time.
+Generally, a pin number of length 6 and below is only practical if it utilizes at least 10 possible values, such as 0-9, as the number of possible combinations is not feasible for a computer to brute force in a reasonable amount of time.
 
 When a PIN length is particularly long, such as 10 characters or more, if it utilizes less than 10 possible values, such as only 0-3, the number of possible combinations is not feasible for a computer to brute force in a short amount of time. This may be used in some applications where one wishes to simplify the PIN for the user, while still meeting a minimum level of security. This pattern might be less likely to be detected as other patterns that utilize all possible values but are more predictable such as 0123456789 vs 0230303132.
 
@@ -35,6 +35,8 @@ When a pin number is strictly based on numerical values, it's possible to utiliz
 The options to cipher and decipher PIN numbers can change based on the overall length.
 
 We will focus on describing methods for the different lengths of numeric PIN numbers.
+
+> **Status:** Stub — the per-length ciphering methods below are planned but not yet written.
 
 #### 3-Digit PIN Numbers
 

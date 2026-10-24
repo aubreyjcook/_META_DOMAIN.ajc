@@ -10,7 +10,7 @@ Guidelines for creating and managing branches in Git repositories.
 
 Branching is a feature in Git repositories that creates a separate line of development for a project.
 
-Any Git repo is initalized with a default branch called `main` or `master`.
+Any Git repo is initialized with a default branch called `main` or `master`.
 
 ### Branching Separations
 

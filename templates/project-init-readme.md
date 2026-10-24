@@ -9,7 +9,7 @@
   - [DeepSeek](#deepseek)
   - [ChatGPT](#chatgpt)
 - [Pre-Dev](#pre-dev)
-  - [Psuedo-Code (Optional)](#psuedo-code-optional)
+  - [Pseudo-Code (Optional)](#psuedo-code-optional)
   - [Pseudo-Directory-Structure (Optional)](#pseudo-directory-structure-optional)
   - [Config-Init Log (Semi-Optional)](#config-init-log-semi-optional)
 
@@ -47,13 +47,13 @@ The purpose of this document is to provide a template for initially documenting 
 ### Pseudo-Code (Optional)
 
 ```
-// Psuedo-Code
+// Pseudo-Code
 ```
 
 ### Pseudo-Directory-Structure (Optional)
 
 ```
-// Psuedo-Structure
+// Pseudo-Structure
 ```
 
 ### Config-Init Log (Semi-Optional)
