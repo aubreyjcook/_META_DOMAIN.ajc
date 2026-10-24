@@ -114,4 +114,5 @@ Each subject directory has an overview file that lists only files that currently
 
 ## Project planning
 
+- [Expansion roadmap](project-planning/expansion-roadmap.md)
 - [Educational/legacy repo consolidation](project-planning/edu-repos-consolidation.md)
