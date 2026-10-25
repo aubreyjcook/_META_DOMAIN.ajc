@@ -25,3 +25,9 @@ Whenever a new version is finished, document a roadmap for the next version.
 ### Notes
 
 There may be additional agent instructions embedded in nested directories; check for them.
+
+## Agent Notes
+
+Potential agents that will have worked on this repo: `{{agent 01}}`, `{{agent 02}}`. If you are an agent working on this repo, 'sign in' below when you are given instructions to work. Create very brief summaries of your work, equivalent to a commit message.
+
+### Agent sign in
