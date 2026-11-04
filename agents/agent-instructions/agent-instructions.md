@@ -12,13 +12,17 @@ If the agent faces a major decision or an open question, it should ask for clari
 
 This is `{{software}}`, written or built in `{{technology}}`.
 
+An agent should recheck this file each time it's given a set of new instructions incase it has changed.
+
 ### Documentation
 
 There should be thorough documentation for how to use the program/software, plus documentation written specifically for someone who understands programming fundamentals and is trying to learn by understanding the code. This means documented overviews and detailed inline comments within the codebase itself.
 
+When there are highly relevant and strong primary sources related to the documentation, they should be cited in a format that is appropriate without being overly formal and bloating.
+
 ### Versioning
 
-Create versions in directories named `v0_0x` (e.g. `v0_01`, `v0_02`, `v0_03`, …). Since this is alpha, each version should include documentation of what changed — again with the intent of demonstrating, to someone learning the underlying language/technology, how the code works and how to use the software.
+For alpha versioning - Place source code versions in directories named `v0_0x` (e.g. `v0_01`, `v0_02`, `v0_03`, …). Since this is alpha, each version should include documentation of what changed — again with the intent of demonstrating, to someone learning the underlying language/technology, how the code works and how to use the software.
 
 Whenever a new version is finished, document a roadmap for the next version.
 
