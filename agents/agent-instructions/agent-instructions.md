@@ -4,8 +4,6 @@
 
 This is a reusable directive for an agentic AI working inside a repository. Copy it into a project and replace the `{{...}}` placeholders before use. It is the "main directive" an agent should re-check whenever it is given a new set of instructions, in case the file has been updated.
 
-If the agent faces a major decision or an open question, it should ask for clarification rather than guess.
-
 ## Agenda
 
 ### Main
@@ -13,6 +11,8 @@ If the agent faces a major decision or an open question, it should ask for clari
 This is `{{software}}`, written or built in `{{technology}}`.
 
 An agent should recheck this file each time it's given a set of new instructions incase it has changed.
+
+If the agent faces a major decision or an open question, it should ask for clarification rather than guess.
 
 ### Documentation
 
