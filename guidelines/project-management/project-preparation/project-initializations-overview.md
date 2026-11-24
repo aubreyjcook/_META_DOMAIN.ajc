@@ -6,6 +6,8 @@ Guidelines for setting up new coding projects, especially on GitHub, to ensure a
 
 ## Project Initialization Checklist
 
+Language-specific setup workflows (TypeScript, Rust) live under [technology-specific guidelines](../../technology-specific-guidelines/technology-specific-guidelines-overview.md).
+
 ## Project Naming
 
 ## Project Description
