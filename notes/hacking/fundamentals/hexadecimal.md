@@ -98,4 +98,4 @@ Reading memory dumps, network captures, shellcode, and binary file contents all 
 ## See Also
 
 - [Binary](binary.md)
-- [Numeric PIN ciphering](../numeric-pin-ciphering.md) — alphanumeric codes expand the symbol set; the combination math is `base^length`, and hex is simply base-16.
+- [Numeric PIN security](../numeric-pin-security.md) — alphanumeric codes expand the symbol set; the combination math is `base^length`, and hex is simply base-16.

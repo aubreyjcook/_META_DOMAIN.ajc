@@ -11,7 +11,7 @@ Subject notes that are not project rules.
   - [Fundamentals](hacking/fundamentals/fundamentals-overview.md)
     - [Binary](hacking/fundamentals/binary.md)
     - [Hexadecimal](hacking/fundamentals/hexadecimal.md)
-  - [Numeric PIN ciphering](hacking/numeric-pin-ciphering.md)
+  - [Numeric PIN security](hacking/numeric-pin-security.md)
 - [Learning](learning/learning-overview.md)
 - [Mathematics](mathematics/mathematics-overview.md)
 - [Machine learning](machine-learning/machine-learning-overview.md)

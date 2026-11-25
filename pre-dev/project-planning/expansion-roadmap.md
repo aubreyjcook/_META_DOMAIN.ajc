@@ -28,21 +28,21 @@ These are items that already have a place in the repo but are incomplete. Comple
 
 ### Complete half-written notes
 
-- [hyper-minimalization.md](../notes/personal-observations/hyper-minimalization.md) — the **Disadvantages** section is empty and **Applications** has headers only.
-- [sub-disciplines-of-development.md](../notes/personal-observations/sub-disciplines-of-development.md) — the "Fundamental Sub-Disciplines" list is empty; Security/Data-Handling/Optimization sections are headers only.
-- [learning-overview.md](../notes/learning/learning-overview.md) — "Understanding vs. Memorization" and "Mental Modelling" are empty.
-- [numeric-pin-ciphering.md](../notes/hacking/numeric-pin-ciphering.md) — the 3/4/5/6-digit ciphering methods are marked as stubs.
-- [project-initializations-overview.md](../guidelines/project-management/project-preparation/project-initializations-overview.md) — the checklist, naming, description, and directory-structure sections are empty.
-- [nextjs.md](../guidelines/technology-specific-guidelines/frameworks/nextjs.md) — "'Vanilla' Next vs Next with TypeScript/Tailwind" is an empty heading.
+- [hyper-minimalization.md](../../notes/personal-observations/hyper-minimalization.md) — the **Disadvantages** section is empty and **Applications** has headers only.
+- [sub-disciplines-of-development.md](../../notes/personal-observations/sub-disciplines-of-development.md) — the "Fundamental Sub-Disciplines" list is empty; Security/Data-Handling/Optimization sections are headers only.
+- [learning-overview.md](../../notes/learning/learning-overview.md) — "Understanding vs. Memorization" and "Mental Modelling" are empty.
+- [numeric-pin-security.md](../../notes/hacking/numeric-pin-security.md) — §6.5 (longer PINs, 8+ digits) is still marked TODO.
+- [project-initializations-overview.md](../../guidelines/project-management/project-preparation/project-initializations-overview.md) — **done** (checklist, naming, description, and directory structure now written).
+- [nextjs.md](../../guidelines/technology-specific-guidelines/frameworks/nextjs.md) — **done** (rewritten as a clean initialization workflow).
 
 ### Fill the "planned" lists already declared in the repo
 
 The repo already contains its own backlog. Execute it first:
 
-- **Hacking fundamentals** ([fundamentals-overview.md](../notes/hacking/fundamentals/fundamentals-overview.md)) — character encoding (ASCII/UTF-8/Unicode), bitwise operations and bitmasks, endianness, boolean logic.
-- **Hacking topics** ([hacking-overview.md](../notes/hacking/hacking-overview.md)) — cryptography, forensics, networking, reverse engineering.
-- **Git** ([git-overview.md](../guidelines/source-control/git/git-overview.md)) — the "Not written yet" list: synchronization, pull requests, forking, merging, reverts, configuration, ignore-file notes.
-- **Agentic AI** ([agentic-ai-overview.md](../agents/agentic-ai-overview.md)) — agent types/orchestration, delegation and review workflows, guardrails.
+- **Hacking fundamentals** ([fundamentals-overview.md](../../notes/hacking/fundamentals/fundamentals-overview.md)) — character encoding (ASCII/UTF-8/Unicode), bitwise operations and bitmasks, endianness, boolean logic.
+- **Hacking topics** ([hacking-overview.md](../../notes/hacking/hacking-overview.md)) — cryptography, forensics, networking, reverse engineering.
+- **Git** ([git-overview.md](../../guidelines/source-control/git/git-overview.md)) — the "Not written yet" list: synchronization, pull requests, forking, merging, reverts, configuration, ignore-file notes.
+- **Agentic AI** ([agentic-ai-overview.md](../../agents/agentic-ai-overview.md)) — agent types/orchestration, delegation and review workflows, guardrails.
 
 ## 2. Infrastructure to Make It Scale
 
@@ -78,7 +78,7 @@ If the domain grows large, a numbering scheme (e.g. `10-19` = hacking, `10.1` = 
 
 ### Commit hygiene
 
-The repo *is* the authority on commit conventions, so its own history should follow [commit-messages.md](../guidelines/source-control/git/commit-messages.md) going forward (and, optionally, the `update`-only history could be squashed once).
+The repo *is* the authority on commit conventions, so its own history should follow [commit-messages.md](../../guidelines/source-control/git/commit-messages.md) going forward (and, optionally, the `update`-only history could be squashed once).
 
 ## 3. Guidelines Expansion (the `_META_` half)
 
@@ -86,23 +86,23 @@ The rules side should stay lean and genuinely prescriptive. Suggested additions,
 
 ### Source control
 
-- Complete the [Git "not written yet" list](../guidelines/source-control/git/git-overview.md) (sync, pull requests, forking, merging, reverts, config, ignore-files).
+- Complete the [Git "not written yet" list](../../guidelines/source-control/git/git-overview.md) (sync, pull requests, forking, merging, reverts, config, ignore-files).
 - Add a **`.gitignore` reference** — common per-language ignore entries.
 
 ### Licensing
 
-- [open-source-licensing-overview.md](../guidelines/open-source-licensing/open-source-licensing-overview.md) is a stub. Expand it into: a comparison of the major licenses (MIT, Apache-2.0, GPL-2.0/3.0, AGPL, MPL, BSD, Unlicense), how to choose one, and a permissive-vs-copyleft framing.
+- [open-source-licensing-overview.md](../../guidelines/open-source-licensing/open-source-licensing-overview.md) is a stub. Expand it into: a comparison of the major licenses (MIT, Apache-2.0, GPL-2.0/3.0, AGPL, MPL, BSD, Unlicense), how to choose one, and a permissive-vs-copyleft framing.
 
 ### Project management
 
-- Write actual **SOPs** (currently an empty [sops-overview.md](../guidelines/project-management/sops/sops-overview.md)) — e.g. "starting a new repo", "releasing a version", "onboarding to an existing project".
-- Provide real **pseudo-code templates** (currently empty).
-- Finish the **project initialization checklist** (naming, description, directory structure, initial docs).
+- Write actual **SOPs** (currently an empty [sops-overview.md](../../guidelines/project-management/sops/sops-overview.md)) — e.g. "starting a new repo", "releasing a version", "onboarding to an existing project".
+- ~~Provide real **pseudo-code templates**~~ — **done** (see [pseudo-code-templates.md](../../guidelines/project-management/project-preparation/pseudo-code/pseudo-code-templates.md)).
+- ~~Finish the **project initialization checklist**~~ — **done** (see [project-initializations-overview.md](../../guidelines/project-management/project-preparation/project-initializations-overview.md)).
 
 ### Technology-specific
 
 - **Windows / Linux** — fill the two stub overviews with the OS-management notes they promise (environment setup, package managers, permissions, shell).
-- **Apache** — the [htaccess](../guidelines/technology-specific-guidelines/web-server/apache.md) section is empty; document redirects, rewrites, auth, caching.
+- **Apache** — the [htaccess](../../guidelines/technology-specific-guidelines/web-server/apache.md) section is empty; document redirects, rewrites, auth, caching.
 - **Applications** — fill with concrete app-specific notes (browsers, terminal, git clients).
 - New areas worth having guidelines for, if they're part of the developer's workflow: **testing**, **CI/CD**, **deployment**, **databases**, **API design**, **accessibility**, **security**, **performance**.
 
@@ -119,27 +119,27 @@ Build a two-track structure:
 
 ### Mathematics
 
-The [mathematics-overview.md](../notes/mathematics/mathematics-overview.md) stub should grow into the logical foundation the repo already gestures at: **number bases** (done, cross-linked), **boolean algebra**, **propositional/predicate logic**, **discrete math**, **modular arithmetic** (feeds directly into cryptography), and **asymptotic complexity (big-O)**.
+The [mathematics-overview.md](../../notes/mathematics/mathematics-overview.md) stub should grow into the logical foundation the repo already gestures at: **number bases** (done, cross-linked), **boolean algebra**, **propositional/predicate logic**, **discrete math**, **modular arithmetic** (feeds directly into cryptography), and **asymptotic complexity (big-O)**.
 
 ### Electronics
 
-The [electronics-overview.md](../notes/electronics/electronics-overview.md) stub is the physical root of the hacking section. Expand into: **digital logic gates** (AND/OR/NOT, and how they produce the binary states), **microcontrollers**, **signals and voltage**. This closes the loop back to "why computers use binary."
+The [electronics-overview.md](../../notes/electronics/electronics-overview.md) stub is the physical root of the hacking section. Expand into: **digital logic gates** (AND/OR/NOT, and how they produce the binary states), **microcontrollers**, **signals and voltage**. This closes the loop back to "why computers use binary."
 
 ### Web
 
-[web-overview.md](../notes/web/web-overview.md) currently has only responsive breakpoints. Grow it into: **HTTP** (methods, status codes, headers), **HTML/CSS/JS fundamentals**, **accessibility**, **performance**, and **security** — the topics its own section title implies.
+[web-overview.md](../../notes/web/web-overview.md) currently has only responsive breakpoints. Grow it into: **HTTP** (methods, status codes, headers), **HTML/CSS/JS fundamentals**, **accessibility**, **performance**, and **security** — the topics its own section title implies.
 
 ### Machine learning
 
-Fill the [machine-learning-overview.md](../notes/machine-learning/machine-learning-overview.md) stub with: fundamentals (supervised/unsupervised/reinforcement), core model families, evaluation (accuracy/precision/recall), and when *not* to use ML (which ties back to the "AI hysteria" observation).
+Fill the [machine-learning-overview.md](../../notes/machine-learning/machine-learning-overview.md) stub with: fundamentals (supervised/unsupervised/reinforcement), core model families, evaluation (accuracy/precision/recall), and when *not* to use ML (which ties back to the "AI hysteria" observation).
 
 ### Learning and personal development
 
-Complete the two empty subsections in [learning-overview.md](../notes/learning/learning-overview.md), and consider adding: spaced repetition, deliberate practice, and reading-source-code strategies.
+Complete the two empty subsections in [learning-overview.md](../../notes/learning/learning-overview.md), and consider adding: spaced repetition, deliberate practice, and reading-source-code strategies.
 
 ### Personal observations
 
-Finish [hyper-minimalization.md](../notes/personal-observations/hyper-minimalization.md) and [sub-disciplines-of-development.md](../notes/personal-observations/sub-disciplines-of-development.md). These are the most original content in the repo and deserve completion before new note stubs.
+Finish [hyper-minimalization.md](../../notes/personal-observations/hyper-minimalization.md) and [sub-disciplines-of-development.md](../../notes/personal-observations/sub-disciplines-of-development.md). These are the most original content in the repo and deserve completion before new note stubs.
 
 ### New domains (only if genuinely part of the knowledge domain)
 
@@ -149,13 +149,13 @@ Candidates: **data structures & algorithms**, **databases/SQL**, **networking**,
 
 Templates are cheap wins because they're reusable across all future repos:
 
-- Complete [drive-template.md](../templates/drive-template.md) (the "Directories" section is empty).
+- Complete [drive-template.md](../../templates/drive-template.md) (the "Directories" section is empty).
 - Add: an **SOP template**, a **commit-message cheat sheet**, a **license-header block**, a **software-architecture outline**, a **testing plan**, a **deployment checklist**, and **issue/bug templates**.
 
 ## 6. LLM and Agents Expansion
 
-- **LLM** — add a **prompt library** (reusable, proven prompts), a **model/tool comparison**, and **workflow notes** (research vs implementation, as already sketched in [chatgpt-overview.md](../llm/chatgpt/chatgpt-overview.md)).
-- **Agents** — fill the planned list: agent types, orchestration patterns, delegation/review workflows, and guardrails (when to let an agent act vs ask). The [agent-instructions template](../agents/agent-instructions/agent-instructions.md) could gain concrete per-project examples.
+- **LLM** — add a **prompt library** (reusable, proven prompts), a **model/tool comparison**, and **workflow notes** (research vs implementation, as already sketched in [chatgpt-overview.md](../../llm/chatgpt/chatgpt-overview.md)).
+- **Agents** — fill the planned list: agent types, orchestration patterns, delegation/review workflows, and guardrails (when to let an agent act vs ask). The [agent-instructions template](../../agents/agent-instructions/agent-instructions.md) could gain concrete per-project examples.
 
 ## 7. Project Planning
 

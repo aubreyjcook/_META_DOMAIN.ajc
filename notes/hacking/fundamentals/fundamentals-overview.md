@@ -28,5 +28,5 @@ The single most important relationship on this page: **one hexadecimal digit rep
 
 ## Related
 
-- [Numeric PIN ciphering](../numeric-pin-ciphering.md) — a direct application of base arithmetic: the number of combinations of a code of length *n* over *b* symbols is *bⁿ*.
+- [Numeric PIN security](../numeric-pin-security.md) — a direct application of base arithmetic: the number of combinations of a code of length *n* over *b* symbols is *bⁿ*.
 - [Mathematics overview](../../mathematics/mathematics-overview.md) — number systems are a mathematical concept that programming inherits.

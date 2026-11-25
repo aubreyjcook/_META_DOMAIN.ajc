@@ -19,7 +19,7 @@ The repo name mixes two prefix styles from the tagging notes: `_META_` (meta inf
 - [Notes](#notes)
 - [LLM notes](#llm-notes)
 - [Agents](#agents)
-- [Project planning](#project-planning)
+- [Pre-dev](#pre-dev)
 
 Each subject directory has an overview file that lists only files that currently exist in that directory.
 
@@ -115,7 +115,7 @@ Each subject directory has an overview file that lists only files that currently
   - [Fundamentals](notes/hacking/fundamentals/fundamentals-overview.md)
     - [Binary](notes/hacking/fundamentals/binary.md)
     - [Hexadecimal](notes/hacking/fundamentals/hexadecimal.md)
-  - [Numeric PIN ciphering](notes/hacking/numeric-pin-ciphering.md)
+  - [Numeric PIN security](notes/hacking/numeric-pin-security.md)
 - [Learning](notes/learning/learning-overview.md)
 - [Mathematics](notes/mathematics/mathematics-overview.md)
 - [Machine learning](notes/machine-learning/machine-learning-overview.md)
@@ -134,7 +134,13 @@ Each subject directory has an overview file that lists only files that currently
 - [Overview](agents/agentic-ai-overview.md)
 - [Agent instructions](agents/agent-instructions/agent-instructions.md)
 
-## Project planning
+## Pre-dev
 
-- [Expansion roadmap](project-planning/expansion-roadmap.md)
-- [Educational/legacy repo consolidation](project-planning/edu-repos-consolidation.md)
+- [Overview](pre-dev/pre-dev-overview.md)
+- [Rust ideas](pre-dev/rust-ideas.md)
+- [TypeScript / JavaScript ideas](pre-dev/ts-ideas.md)
+- [Problem-solution statements](pre-dev/problem-solution-statements/problem-solution-statements-overview.md)
+  - [CSIcon navigation component](pre-dev/problem-solution-statements/csicon-nav-component.md)
+  - [CFI user support](pre-dev/problem-solution-statements/cfi-user-support.md)
+- [Expansion roadmap](pre-dev/project-planning/expansion-roadmap.md)
+- [Educational/legacy repo consolidation](pre-dev/project-planning/edu-repos-consolidation.md)

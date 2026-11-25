@@ -6,9 +6,7 @@
 ## Pre-dev ideas
 **For planned or pseudo-code only stages**
 
-1. something
-*Description*
-does something
+1. 
 
 2. 
 

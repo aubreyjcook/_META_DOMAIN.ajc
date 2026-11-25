@@ -111,4 +111,4 @@ Notice the right column above: four binary digits always map to exactly one hexa
 ## See Also
 
 - [Hexadecimal](hexadecimal.md)
-- [Numeric PIN ciphering](../numeric-pin-ciphering.md) — combinations of a code are `base^length`; for binary that is `2ⁿ`.
+- [Numeric PIN security](../numeric-pin-security.md) — combinations of a code are `base^length`; for binary that is `2ⁿ`.

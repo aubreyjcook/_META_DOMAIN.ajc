@@ -17,7 +17,7 @@ _META_DOMAIN.ajc/
 ├── notes/
 ├── templates/
 ├── llm/
-└── project-planning/
+└── pre-dev/
 ```
 
 Each subject directory has an overview markdown file that lists its children.

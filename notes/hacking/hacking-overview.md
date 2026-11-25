@@ -14,7 +14,7 @@ The foundation is a running description of the lowest-level concepts, starting w
 
 ## Applied Topics
 
-- [Numeric PIN ciphering](numeric-pin-ciphering.md) — PIN/passcode properties, combination math, and brute-force resistance.
+- [Numeric PIN security](numeric-pin-security.md) — PIN combinatorics, threat models, and encoding schemes.
 
 ## Planned (stubs)
 
