@@ -24,6 +24,7 @@ Notes tied to a specific tool or platform.
   - [Vue](frameworks/vue.md)
   - [Next.js](frameworks/nextjs.md)
   - [Nest](frameworks/nest.md)
+  - [Vite + TypeScript (static frontend)](frameworks/vite.md)
 - [Databases](databases/databases-overview.md)
   - [PostgreSQL](databases/postgresql.md)
   - [SQLite](databases/sqlite.md)

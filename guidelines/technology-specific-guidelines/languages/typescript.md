@@ -161,3 +161,4 @@ For a **browser** project, include the DOM instead and skip `@types/node`:
 - [Rust project initialization](rust.md)
 - [Project initialization overview](../../project-management/project-preparation/project-initializations-overview.md)
 - [Next.js](../frameworks/nextjs.md) — a framework-level instantiation workflow built on top of a TypeScript base.
+- [Vite + TypeScript (static frontend)](../frameworks/vite.md) — the browser/static-deployment variant.

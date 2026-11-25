@@ -84,6 +84,7 @@ Each subject directory has an overview file that lists only files that currently
   - [Vue](guidelines/technology-specific-guidelines/frameworks/vue.md)
   - [Next.js](guidelines/technology-specific-guidelines/frameworks/nextjs.md)
   - [Nest](guidelines/technology-specific-guidelines/frameworks/nest.md)
+  - [Vite + TypeScript (static frontend)](guidelines/technology-specific-guidelines/frameworks/vite.md)
 - [Databases](guidelines/technology-specific-guidelines/databases/databases-overview.md)
   - [PostgreSQL](guidelines/technology-specific-guidelines/databases/postgresql.md)
   - [SQLite](guidelines/technology-specific-guidelines/databases/sqlite.md)
