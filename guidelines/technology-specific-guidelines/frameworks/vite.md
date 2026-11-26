@@ -134,4 +134,5 @@ Set the Pages source to **GitHub Actions** (Settings → Pages), not the `gh-pag
 
 - [TypeScript](../languages/typescript.md) — the language setup, including the Node.js runtime caveat.
 - [React](react.md) and [Vue](vue.md) — the Vite-based framework variants.
+- [Vite + Rust (WebAssembly)](vite-rust.md) — the same static-deployment workflow with the logic written in Rust.
 - [Tailwind CSS](../styling/tailwind.md) — add a utility-first styling layer via PostCSS.

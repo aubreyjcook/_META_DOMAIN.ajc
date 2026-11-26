@@ -8,3 +8,4 @@ Front-end and full-stack initialization workflows, including Vite (the build too
 - [Next.js](nextjs.md)
 - [Nest](nest.md)
 - [Vite + TypeScript (static frontend)](vite.md)
+- [Vite + Rust (WebAssembly)](vite-rust.md)
