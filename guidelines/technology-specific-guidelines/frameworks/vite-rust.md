@@ -156,6 +156,7 @@ jobs:
 
 ## See Also
 
+- [Vite + Rust (WASM): setup, configuration, and deployment](vite-rust-setup-configuration-deployment.md) — the companion covering what comes after initialization.
 - [Vite + TypeScript (static frontend)](vite.md) — the TypeScript-only variant of this workflow.
 - [Rust](../languages/rust.md) — native (non-WASM) Rust project initialization.
 - [TypeScript](../languages/typescript.md)

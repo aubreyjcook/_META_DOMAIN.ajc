@@ -91,4 +91,5 @@ The IDE/editor integration is **rust-analyzer** (the language server), which pow
 
 - [TypeScript project initialization](typescript.md)
 - [Vite + Rust (WebAssembly)](../frameworks/vite-rust.md) — compile Rust to WASM for a static frontend.
+- [Vite + Rust (WASM): setup, configuration, and deployment](../frameworks/vite-rust-setup-configuration-deployment.md) — the companion to that initialization workflow.
 - [Project initialization overview](../../project-management/project-preparation/project-initializations-overview.md)
